@@ -1,0 +1,1890 @@
+{
+  "meta": {
+    "built_at": "2026-06-18T12:14:10+00:00",
+    "source": "ClinGen Gene-Dosage (Dosage Sensitivity Map)",
+    "source_url": "https://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv",
+    "license": "CC0",
+    "panel_file": "cvd_gene_panel.json",
+    "panel_gene_count": 677,
+    "gene_count": 268,
+    "note": "ClinGen haploinsufficiency / triplosensitivity scores ONLY. Mechanism labels are computed at runtime by merging these with VCEP PVS1/PP2 applicability, the CHDgene dominant-negative flag, the hand DN list, and gnomAD constraint."
+  },
+  "genes": {
+    "AARS2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=AARS2"
+    },
+    "ABCC8": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ABCC8"
+    },
+    "ABCG5": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ABCG5"
+    },
+    "ABCG8": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ABCG8"
+    },
+    "ACADVL": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ACADVL"
+    },
+    "ACTA2": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ACTA2"
+    },
+    "ACTB": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ACTB"
+    },
+    "ACTC1": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ACTC1"
+    },
+    "ACVRL1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ACVRL1"
+    },
+    "ADA2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ADA2"
+    },
+    "ADAMTS17": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ADAMTS17"
+    },
+    "ADAMTS2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ADAMTS2"
+    },
+    "ADAMTSL2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ADAMTSL2"
+    },
+    "AGK": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=AGK"
+    },
+    "AKT1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=AKT1"
+    },
+    "AKT3": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=AKT3"
+    },
+    "ALMS1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ALMS1"
+    },
+    "ANKRD11": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ANKRD11"
+    },
+    "APOB": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=APOB"
+    },
+    "APOC2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=APOC2"
+    },
+    "ARID1A": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ARID1A"
+    },
+    "ARID1B": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ARID1B"
+    },
+    "ASPH": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ASPH"
+    },
+    "ATM": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ATM"
+    },
+    "ATP2A1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ATP2A1"
+    },
+    "ATP2A2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ATP2A2"
+    },
+    "ATP6V0A2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ATP6V0A2"
+    },
+    "ATP6V1E1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ATP6V1E1"
+    },
+    "ATP7A": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ATP7A"
+    },
+    "ATP7B": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ATP7B"
+    },
+    "B3GALT6": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=B3GALT6"
+    },
+    "B4GALT7": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=B4GALT7"
+    },
+    "BAG3": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=BAG3"
+    },
+    "BCOR": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=BCOR"
+    },
+    "BMPR2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=BMPR2"
+    },
+    "BRAF": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=BRAF"
+    },
+    "CACNA1A": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CACNA1A"
+    },
+    "CACNA1C": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CACNA1C"
+    },
+    "CALM1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CALM1"
+    },
+    "CALM2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CALM2"
+    },
+    "CALM3": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CALM3"
+    },
+    "CARD14": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CARD14"
+    },
+    "CASZ1": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CASZ1"
+    },
+    "CBL": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CBL"
+    },
+    "CCBE1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CCBE1"
+    },
+    "CDK13": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CDK13"
+    },
+    "CDKN1C": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CDKN1C"
+    },
+    "CFAP53": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CFAP53"
+    },
+    "CFC1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CFC1"
+    },
+    "CHD4": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CHD4"
+    },
+    "CHD7": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CHD7"
+    },
+    "CITED2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CITED2"
+    },
+    "CNOT3": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CNOT3"
+    },
+    "COL11A1": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COL11A1"
+    },
+    "COL1A1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COL1A1"
+    },
+    "COL1A2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COL1A2"
+    },
+    "COL2A1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COL2A1"
+    },
+    "COL3A1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COL3A1"
+    },
+    "COL5A1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COL5A1"
+    },
+    "COL5A2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COL5A2"
+    },
+    "COX10": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COX10"
+    },
+    "COX15": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COX15"
+    },
+    "COX20": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COX20"
+    },
+    "COX6B1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=COX6B1"
+    },
+    "CREBBP": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CREBBP"
+    },
+    "CTNNA3": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CTNNA3"
+    },
+    "CTNNB1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CTNNB1"
+    },
+    "CYP27A1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=CYP27A1"
+    },
+    "DLG4": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=DLG4"
+    },
+    "DMD": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=DMD"
+    },
+    "DMRT2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=DMRT2"
+    },
+    "DNAH5": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=DNAH5"
+    },
+    "DSC2": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=DSC2"
+    },
+    "DSE": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=DSE"
+    },
+    "DSG2": {
+      "hi_score": "2",
+      "hi_desc": "Some evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=DSG2"
+    },
+    "DSP": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=DSP"
+    },
+    "EFTUD2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=EFTUD2"
+    },
+    "ELN": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ELN"
+    },
+    "ENG": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ENG"
+    },
+    "EP300": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=EP300"
+    },
+    "ESCO2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ESCO2"
+    },
+    "EVC2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=EVC2"
+    },
+    "EYA4": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=EYA4"
+    },
+    "FAH": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FAH"
+    },
+    "FARS2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FARS2"
+    },
+    "FBN1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FBN1"
+    },
+    "FBN2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FBN2"
+    },
+    "FGFR1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FGFR1"
+    },
+    "FGFR3": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FGFR3"
+    },
+    "FKBP14": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FKBP14"
+    },
+    "FLNA": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FLNA"
+    },
+    "FLNB": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FLNB"
+    },
+    "FLNC": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FLNC"
+    },
+    "FLVCR2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FLVCR2"
+    },
+    "FOXC1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FOXC1"
+    },
+    "FOXC2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FOXC2"
+    },
+    "FOXE3": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FOXE3"
+    },
+    "FOXF1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FOXF1"
+    },
+    "FOXP1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FOXP1"
+    },
+    "FOXRED1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=FOXRED1"
+    },
+    "G6PC3": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=G6PC3"
+    },
+    "GATA2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GATA2"
+    },
+    "GATA4": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GATA4"
+    },
+    "GATA6": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GATA6"
+    },
+    "GDF2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GDF2"
+    },
+    "GJA1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GJA1"
+    },
+    "GJA5": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GJA5"
+    },
+    "GLA": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GLA"
+    },
+    "GLB1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GLB1"
+    },
+    "GLI3": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GLI3"
+    },
+    "GLMN": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GLMN"
+    },
+    "GLRB": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GLRB"
+    },
+    "GNAS": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GNAS"
+    },
+    "GORAB": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GORAB"
+    },
+    "GPC3": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GPC3"
+    },
+    "GPIHBP1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=GPIHBP1"
+    },
+    "HDAC8": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=HDAC8"
+    },
+    "HFE": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=HFE"
+    },
+    "HGF": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=HGF"
+    },
+    "HNRNPK": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=HNRNPK"
+    },
+    "HRAS": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=HRAS"
+    },
+    "HSD17B10": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=HSD17B10"
+    },
+    "IDS": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=IDS"
+    },
+    "IGF2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=IGF2"
+    },
+    "IKBKG": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=IKBKG"
+    },
+    "JAG1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=JAG1"
+    },
+    "KANSL1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KANSL1"
+    },
+    "KAT6A": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KAT6A"
+    },
+    "KAT6B": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KAT6B"
+    },
+    "KCNH2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KCNH2"
+    },
+    "KCNQ1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KCNQ1"
+    },
+    "KCNQ2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KCNQ2"
+    },
+    "KDM6A": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KDM6A"
+    },
+    "KIF11": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KIF11"
+    },
+    "KMT2A": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KMT2A"
+    },
+    "KMT2D": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=KMT2D"
+    },
+    "LAMA3": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=LAMA3"
+    },
+    "LAMP2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=LAMP2"
+    },
+    "LDLR": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=LDLR"
+    },
+    "LMNA": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=LMNA"
+    },
+    "LRPPRC": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=LRPPRC"
+    },
+    "MAP2K1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MAP2K1"
+    },
+    "MED12": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MED12"
+    },
+    "MED13L": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MED13L"
+    },
+    "MEIS2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MEIS2"
+    },
+    "MET": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MET"
+    },
+    "MLYCD": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MLYCD"
+    },
+    "MMACHC": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MMACHC"
+    },
+    "MTTP": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MTTP"
+    },
+    "MYBPC3": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MYBPC3"
+    },
+    "MYH11": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MYH11"
+    },
+    "MYH7": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MYH7"
+    },
+    "MYL3": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MYL3"
+    },
+    "MYLK": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=MYLK"
+    },
+    "NAA15": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NAA15"
+    },
+    "NDUFA1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFA1"
+    },
+    "NDUFA10": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFA10"
+    },
+    "NDUFAF1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFAF1"
+    },
+    "NDUFAF2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFAF2"
+    },
+    "NDUFAF5": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFAF5"
+    },
+    "NDUFB3": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFB3"
+    },
+    "NDUFS4": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFS4"
+    },
+    "NDUFS6": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFS6"
+    },
+    "NDUFS7": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFS7"
+    },
+    "NDUFS8": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFS8"
+    },
+    "NDUFV1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFV1"
+    },
+    "NDUFV2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NDUFV2"
+    },
+    "NEBL": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NEBL"
+    },
+    "NF1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NF1"
+    },
+    "NF2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NF2"
+    },
+    "NIPBL": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "1",
+      "ts_desc": "Little evidence for dosage pathogenicity",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NIPBL"
+    },
+    "NKX2-5": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NKX2-5"
+    },
+    "NODAL": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NODAL"
+    },
+    "NONO": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NONO"
+    },
+    "NOTCH1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NOTCH1"
+    },
+    "NOTCH2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NOTCH2"
+    },
+    "NR2F2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NR2F2"
+    },
+    "NRAS": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NRAS"
+    },
+    "NSD1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=NSD1"
+    },
+    "PBX1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PBX1"
+    },
+    "PCSK9": {
+      "hi_score": "40",
+      "hi_desc": "Dosage sensitivity unlikely",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PCSK9"
+    },
+    "PGM1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PGM1"
+    },
+    "PIK3CA": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PIK3CA"
+    },
+    "PIK3R2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PIK3R2"
+    },
+    "PITX2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PITX2"
+    },
+    "PKD1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PKD1"
+    },
+    "PKD2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PKD2"
+    },
+    "PKP2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PKP2"
+    },
+    "PLN": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PLN"
+    },
+    "PLOD1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PLOD1"
+    },
+    "PLOD3": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PLOD3"
+    },
+    "PMM2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PMM2"
+    },
+    "PORCN": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PORCN"
+    },
+    "PPP1CB": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PPP1CB"
+    },
+    "PRDM6": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PRDM6"
+    },
+    "PRKAG2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PRKAG2"
+    },
+    "PRKD1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PRKD1"
+    },
+    "PRRT2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PRRT2"
+    },
+    "PTEN": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PTEN"
+    },
+    "PTPN11": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=PTPN11"
+    },
+    "RAD21": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=RAD21"
+    },
+    "RAF1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=RAF1"
+    },
+    "RASA1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=RASA1"
+    },
+    "RBM20": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=RBM20"
+    },
+    "RERE": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=RERE"
+    },
+    "RIN2": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=RIN2"
+    },
+    "RIT1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=RIT1"
+    },
+    "ROBO1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ROBO1"
+    },
+    "RYR1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=RYR1"
+    },
+    "RYR2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=RYR2"
+    },
+    "SALL1": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SALL1"
+    },
+    "SALL4": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SALL4"
+    },
+    "SAMHD1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SAMHD1"
+    },
+    "SCN1A": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SCN1A"
+    },
+    "SCN1B": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SCN1B"
+    },
+    "SCN5A": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SCN5A"
+    },
+    "SDHAF1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SDHAF1"
+    },
+    "SDHD": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SDHD"
+    },
+    "SEMA3A": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SEMA3A"
+    },
+    "SETD5": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SETD5"
+    },
+    "SF3B4": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SF3B4"
+    },
+    "SHANK3": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SHANK3"
+    },
+    "SHOC2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SHOC2"
+    },
+    "SKI": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SKI"
+    },
+    "SLC2A1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SLC2A1"
+    },
+    "SLC2A10": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SLC2A10"
+    },
+    "SLC37A4": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SLC37A4"
+    },
+    "SLC4A3": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SLC4A3"
+    },
+    "SMAD2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SMAD2"
+    },
+    "SMAD3": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SMAD3"
+    },
+    "SMAD4": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SMAD4"
+    },
+    "SMARCA4": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SMARCA4"
+    },
+    "SMARCB1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SMARCB1"
+    },
+    "SMARCE1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SMARCE1"
+    },
+    "SMC1A": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SMC1A"
+    },
+    "SMC3": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SMC3"
+    },
+    "SON": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SON"
+    },
+    "SOS1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SOS1"
+    },
+    "SOS2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SOS2"
+    },
+    "SPEN": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SPEN"
+    },
+    "SPRED1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SPRED1"
+    },
+    "SURF1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=SURF1"
+    },
+    "TAB2": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TAB2"
+    },
+    "TBX1": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TBX1"
+    },
+    "TBX2": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TBX2"
+    },
+    "TBX20": {
+      "hi_score": "2",
+      "hi_desc": "Some evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TBX20"
+    },
+    "TBX3": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TBX3"
+    },
+    "TBX4": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TBX4"
+    },
+    "TBX5": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TBX5"
+    },
+    "TFAP2B": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TFAP2B"
+    },
+    "TGFBR1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TGFBR1"
+    },
+    "TGFBR2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TGFBR2"
+    },
+    "TMEM43": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TMEM43"
+    },
+    "TMEM94": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TMEM94"
+    },
+    "TNNC1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TNNC1"
+    },
+    "TNNI3": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TNNI3"
+    },
+    "TNNT2": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TNNT2"
+    },
+    "TPM1": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TPM1"
+    },
+    "TRAF7": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TRAF7"
+    },
+    "TRDN": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TRDN"
+    },
+    "TSC1": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TSC1"
+    },
+    "TSC2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TSC2"
+    },
+    "TTN": {
+      "hi_score": "2",
+      "hi_desc": "Some evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TTN"
+    },
+    "TTR": {
+      "hi_score": "0",
+      "hi_desc": "No evidence available",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=TTR"
+    },
+    "UBR1": {
+      "hi_score": "30",
+      "hi_desc": "Gene associated with autosomal recessive phenotype",
+      "ts_score": "Not yet evaluated",
+      "ts_desc": "Not yet evaluated",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=UBR1"
+    },
+    "ZEB2": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ZEB2"
+    },
+    "ZFPM2": {
+      "hi_score": "1",
+      "hi_desc": "Little evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ZFPM2"
+    },
+    "ZIC3": {
+      "hi_score": "3",
+      "hi_desc": "Sufficient evidence for dosage pathogenicity",
+      "ts_score": "0",
+      "ts_desc": "No evidence available",
+      "clingen_url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC?search=ZIC3"
+    }
+  }
+}

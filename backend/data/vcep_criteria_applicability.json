@@ -1,0 +1,937 @@
+{
+ "_README": "Per-gene ACMG criteria APPLICABILITY harvested from the ClinGen CSpec API (cspec.genome.network/cspec/SequenceVariantInterpretation/id/{GN}). Codes harvested: PVS1, PM1, PP2, BP1, BS2 (2026-06-05); PS4, PP4, PS1, PM5, PM3 (2026-06-08). applicability: applicable | not_applicable | unknown. Drives deterministic gating of LLM-assigned criteria the VCEP marks Not Applicable (PP2/BP1/PP4 via _APPLICABILITY_GATED_CODES; PVS1 via the LoF/exclusion path) and identifies the recessive lane (PM3 applicable) for the PS4 recessive guard. PS4/PS1/PM5 are recorded for transparency but are Applicable on every VCEP gene, so they are not gated. PM1.text carries the VCEP hotspot/domain rule for range parsing. Re-harvest with /tmp/harvest_cspec_extended.py on VCEP updates.",
+ "genes": {
+  "ACTC1": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "not_applicable"
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "This criterion can be used at MODERATE if a different missense variant at the same codon has been classified as _pathogenic_ using these modified guidelines without application of PM5.\n\nThe impact of the amino acid change being evaluated needs to be compared to the impact of the amino acid change that is established as pathogenic (e.g., a change of Ala to His is less severe than Ala to Cys change). Consider reducing the strength of this rule to SUPPORTING if the predicted impact is not expected to be equivalent or more severe.\n\nPM5 should not be combined with PM1.  If both are applicable at MODERATE weight, use of PM5 is most appropriate since it is variant specific. | This criterion can be "
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "No cardiomyopathy specifications. Apply as outlined by Richards _et al_. 2015[<sup>1</sup>](#pmid_25741868).\n\nExample of when rule should NOT be applied. NM\\_000256.3(_MYBPC3_): c.2308G>A (p.Asp770Asn) has an established impact on splicing leading to nonsense mediated decay (NMD) and should not be used to provide evidence for other variants observed to result in the same amino acid change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "Currently few well-designed case-control studies have been performed for inherited cardiomyopathies.  Until such studies become available, comparative analyses can be undertaken using case data (e.g., internal and/or published cohorts) and control data from population-level cohorts (e.g., gnomAD). \n\nCohorts used in these analyses should meet the following criteria: \n\n1.  The cases have a clinical diagnosis of the specified disorder or related phenotype (e.g., all cases have HCM or another relevant phenotype\\*). \n    *   When assessing cases, it's important to consider how likely another potential cause of the phenotype has been excluded.  This includes considering the presence of other varia"
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN101",
+   "vcep": "Cardiomyopathy"
+  },
+  "BRAF": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (exon 6, exon 11, P-loop \\[AA 459-474\\], CR3 activation segment \\[AA 594-627\\]). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _BRAF_ and _RAF1_."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN049",
+   "vcep": "RASopathy"
+  },
+  "FBN1": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "unknown",
+    "text": "* Cys residues in cbEGF-like domains\n* Add caveat: PM5/PS1 should not be used when this argument applies. | * Cys in EGF-like domain, Cys in TB domain, Cys in hybrid domain, (D/N)-X-(D/N)-(E/Q)-Xm-(D/N)-Xn-(Y/F) substitution in cbEGF-like domain, invariant calcium-binding or hydroxylation residue in cbEGF-like domain, critical Gly between Cys2-Cys3 in cbEGF-like domain, Gly between Cys3-Cys4 if there is an upstream cbEGF domain, Cys-creating variants.\n* Add caveat: N to S substitution in the second N of de consensus sequence and G to A might be tolerated, PM1 should not be used in these cases."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PP2": {
+    "applicability": "unknown"
+   },
+   "PVS1": {
+    "applicability": "unknown"
+   },
+   "gn": "GN022",
+   "vcep": "Aortopathy"
+  },
+  "HRAS": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (P-loop \\[AA 10-17\\], SW1 \\[AA 25-40\\], SW2 \\[AA 57-64\\], SAK \\[AA 145-156\\]). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _HRAS, KRAS, MRAS, NRAS, RIT1,_ and _RRAS2._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN046",
+   "vcep": "RASopathy"
+  },
+  "KCNQ1": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Located in a mutational hot spot and/or critical and well-established functional domain (_e.g._ active site of an enzyme) without benign variation \n\n*   The variant must be rare (meeting PM2\\_Supporting) in order to be considered for PM1.\n*   Met by a rare variant within the pore helix (amino acids 300 to 320). This region is known to be a critical region of KCNQ1 and has been confirmed to show an absence of likely benign or benign variants listed in gnomAD."
+   },
+   "PM3": {
+    "applicability": "applicable",
+    "text": "For recessive disorders, detected in _trans_ with a pathogenic variant  Note: This requires testing of parents (or offspring) to determine phase\n\n*   Can be used for variants seen in patients with Jervell and Lange-Nielsen syndrome, if the phenotype includes both long QT interval and congenital deafness.\n*   This code is not considered mutually exclusive with PS4. For example, variants associated with both recessive and dominant cases can meet both PM3 and PS4.\n*   Use the ClinGen SVI recommendations to determine evidence weight for this rule code.\n*   Both variants must be classified using these rule specifications.\n\n![](https://lh6.googleusercontent.com/k8TLTROZpnhrx_KFdTguCHToaXwLEnf9Kn9M"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "Novel missense change at an amino acid residue where a different missense change determined to be pathogenic has been seen before.\n\n*   Caveat: Residue must be highly conserved across all 5 human KCNQ paralogues in order to be considered for PM5. To confirm conservation, curators should access paralogue data and regions of alignment and non-alignment between KCNQ1 and KCNQ2, KCNQ3, KCNQ4, and KCNQ5  at the site below: [https://www.cardiodb.org/paralogue_annotation/gene.php?name=KCNQ1](https://www.cardiodb.org/paralogue_annotation/gene.php?name=KCNQ1).\n*   Poor conservation (ineligibility for PM5) is defined whenever 1 or more KCNQ’s show a different amino acid at the position. \n*   Compariso"
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "applicable",
+    "text": "Patient’s phenotype or family history is highly specific for a disease with a single genetic etiology.\n\n*   QT prolongation above 480ms AND\n*   Swimming-associated events OR\n*   Treadmill stress test result (PMID: 21699858) OR\n*   T-wave morphology characteristic of LQT1 (PMID: 7586261, 29141844)"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Example: Val->Leu caused by either G>C or G>T in the same codon. Caveat: Beware of changes that impact splicing rather than at the amino acid/protein level.\n\n*   The comparison variant must reach a pathogenic classification using these rule specifications, and must have reached pathogenic without the use of the PS1 code.\n*   SpliceAI must be used to ensure that the comparison variant is not causing a splicing defect. | *   PS1 is met at the PS1\\_Moderate level if the comparison variant reaches a likely pathogenic classification using these rule specifications, without the use of the PS1 cod"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "The prevalence of the variant in affected individuals is significantly increased compared to the prevalence in controls\n\n*   In order to be evaluated for this criterion, the variant must not meet BS1.\n*   PS4 is Met by 6 or more probands.\n*   This code is not considered mutually exclusive with PM3. For example, variants associated with both dominant and recessive cases can meet both PS4 and PM3.\n*   If probands are reported in at least 2 papers, and the author lists from the two papers contain any of the same authors names, definitely the patients are the same, so count only one case for PS4.\n*   If the two lists of authors are totally distinct / different, usually you can count both cases f"
+   },
+   "PVS1": {
+    "applicability": "applicable"
+   },
+   "gn": "GN112",
+   "vcep": "PotassiumChannel"
+  },
+  "KRAS": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (P-loop \\[AA 10-17\\], SW1 \\[AA 25-40\\], SW2 \\[AA 57-64\\], SAK \\[AA 145-156\\]). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _HRAS, KRAS, MRAS, NRAS, RIT1,_ and _RRAS2._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN044",
+   "vcep": "RASopathy"
+  },
+  "LZTR1": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "not_applicable"
+   },
+   "PM3": {
+    "applicability": "applicable",
+    "text": "≥4 points. | ≥2 points. | ≥1 points. | ≥0.5 points."
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residue changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant in _LZTR1_ regardless of nucleotide change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "applicable"
+   },
+   "gn": "GN094",
+   "vcep": "RASopathy"
+  },
+  "MAP2K1": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (AA 43-61, AA 124-134). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _MAP2K1_ and _MAP2K2_."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN045",
+   "vcep": "RASopathy"
+  },
+  "MAP2K2": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (AA 47-65, AA 128-138). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _MAP2K1_ and _MAP2K2._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN048",
+   "vcep": "RASopathy"
+  },
+  "MRAS": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (P-loop \\[AA 20-27\\], SW1 \\[AA 35-50\\], SW2 \\[AA 67-74\\], no SAK). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _HRAS, KRAS, MRAS, NRAS, RIT1,_ and _RRAS2._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN087",
+   "vcep": "RASopathy"
+  },
+  "MYBPC3": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable to missense variants in _MYBPC3_ in the specific regions listed below (Walsh _et al._ 2019[<sup>14</sup>](#pmid_30696458)). \n\n1.  Transcripts ENST00000545968 and NM\\_000256.3\n2.  Codons 485-502 and 1248-1266\n\nData from HCM case cohorts was used to derive these cluster regions. Therefore, this rule should NOT be applied when additional evidence for the variant supports that the variant causes a phenotype other than HCM (e.g., variant seen in multiple DCM cases).\n\nEnrichment was not observed for DCM in any genes.\n\nRule should NOT be combined with PM5 because presence of pathogenic variants in the same codon/region were used to determine clustering and would be double-counting eviden"
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "This criterion can be used at MODERATE if a different missense variant at the same codon has been classified as _pathogenic_ using these modified guidelines without application of PM5.\n\nThe impact of the amino acid change being evaluated needs to be compared to the impact of the amino acid change that is established as pathogenic (e.g., a change of Ala to His is less severe than Ala to Cys change). Consider reducing the strength of this rule to SUPPORTING if the predicted impact is not expected to be equivalent or more severe.\n\nPM5 should not be combined with PM1.  If both are applicable at MODERATE weight, use of PM5 is most appropriate since it is variant specific. | This criterion can be "
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "No cardiomyopathy specifications. Apply as outlined by Richards _et al_. 2015[<sup>6</sup>](#pmid_25741868).\n\nExample of when rule should NOT be applied. NM\\_000256.3(_MYBPC3_): c.2308G>A (p.Asp770Asn) has an established impact on splicing leading to nonsense mediated decay (NMD) and should not be used to provide evidence for other variants observed to result in the same amino acid change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "{Currently few well-designed case-control studies have been performed for inherited cardiomyopathies.  Until such studies become available, comparative analyses can be undertaken using case data (e.g., internal and/or published cohorts) and control data from population-level cohorts (e.g., gnomAD). \n\nCohorts used in these analyses should meet the following criteria: \n\n1.  The cases have a clinical diagnosis of the specified disorder or related phenotype (e.g., all cases have HCM or another relevant phenotype\\*). \n    *   When assessing cases, it's important to consider how likely another potential cause of the phenotype has been excluded.  This includes considering the presence of other vari"
+   },
+   "PVS1": {
+    "applicability": "applicable"
+   },
+   "gn": "GN095",
+   "vcep": "Cardiomyopathy"
+  },
+  "MYH7": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable to missense variants in _MYH7_ in the specific regions listed below (Walsh _et al._ 2019[<sup>10</sup>](#pmid_30696458)). \n\n1.  Transcripts ENST00000355349 & NM\\_000257.4\n2.  Codons 167-931\\*\n\nData from HCM case cohorts was used to derive these cluster regions. Therefore, this rule should NOT be applied when additional evidence for the variant supports that the variant causes a phenotype other than HCM (e.g., variant seen in multiple DCM cases).\n\nEnrichment was not observed for DCM in any genes.\n\nRule should NOT be combined with PM5 because presence of pathogenic variants in the same codon/region were used to determine clustering and would be double-counting evidence.\n\n_\\* This re"
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "This criterion can be used at MODERATE if a different missense variant at the same codon has been classified as _pathogenic_ using these modified guidelines without application of PM5.\n\nThe impact of the amino acid change being evaluated needs to be compared to the impact of the amino acid change that is established as pathogenic (e.g., a change of Ala to His is less severe than Ala to Cys change). Consider reducing the strength of this rule to SUPPORTING if the predicted impact is not expected to be equivalent or more severe.\n\nPM5 should not be combined with PM1.  If both are applicable at MODERATE weight, use of PM5 is most appropriate since it is variant specific. | This criterion can be "
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "No cardiomyopathy specifications. Apply as outlined by Richards _et al_. 2015[<sup>1</sup>](#pmid_25741868).\n\nExample of when rule should NOT be applied. NM\\_000256.3(_MYBPC3_): c.2308G>A (p.Asp770Asn) has an established impact on splicing leading to nonsense mediated decay (NMD) and should not be used to provide evidence for other variants observed to result in the same amino acid change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "Currently few well-designed case-control studies have been performed for inherited cardiomyopathies.  Until such studies become available, comparative analyses can be undertaken using case data (e.g., internal and/or published cohorts) and control data from population-level cohorts (e.g., gnomAD). \n\nCohorts used in these analyses should meet the following criteria: \n\n1.  The cases have a clinical diagnosis of the specified disorder or related phenotype (e.g., all cases have HCM or another relevant phenotype\\*). \n    *   When assessing cases, it's important to consider how likely another potential cause of the phenotype has been excluded.  This includes considering the presence of other varia"
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN002",
+   "vcep": "Cardiomyopathy"
+  },
+  "MYL2": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "not_applicable"
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "This criterion can be used at MODERATE if a different missense variant at the same codon has been classified as _pathogenic_ using these modified guidelines without application of PM5.\n\nThe impact of the amino acid change being evaluated needs to be compared to the impact of the amino acid change that is established as pathogenic (e.g., a change of Ala to His is less severe than Ala to Cys change). Consider reducing the strength of this rule to SUPPORTING if the predicted impact is not expected to be equivalent or more severe.\n\nPM5 should not be combined with PM1.  If both are applicable at MODERATE weight, use of PM5 is most appropriate since it is variant specific. | This criterion can be "
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "No cardiomyopathy specifications. Apply as outlined by Richards _et al_. 2015[<sup>1</sup>](#pmid_25741868).\n\nExample of when rule should NOT be applied. NM\\_000256.3(_MYBPC3_): c.2308G>A (p.Asp770Asn) has an established impact on splicing leading to nonsense mediated decay (NMD) and should not be used to provide evidence for other variants observed to result in the same amino acid change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "Currently few well-designed case-control studies have been performed for inherited cardiomyopathies.  Until such studies become available, comparative analyses can be undertaken using case data (e.g., internal and/or published cohorts) and control data from population-level cohorts (e.g., gnomAD). \n\nCohorts used in these analyses should meet the following criteria: \n\n1.  The cases have a clinical diagnosis of the specified disorder or related phenotype (e.g., all cases have HCM or another relevant phenotype\\*). \n    *   When assessing cases, it's important to consider how likely another potential cause of the phenotype has been excluded.  This includes considering the presence of other varia"
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN102",
+   "vcep": "Cardiomyopathy"
+  },
+  "MYL3": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "not_applicable"
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "This criterion can be used at MODERATE if a different missense variant at the same codon has been classified as _pathogenic_ using these modified guidelines without application of PM5.\n\nThe impact of the amino acid change being evaluated needs to be compared to the impact of the amino acid change that is established as pathogenic (e.g., a change of Ala to His is less severe than Ala to Cys change). Consider reducing the strength of this rule to SUPPORTING if the predicted impact is not expected to be equivalent or more severe.\n\nPM5 should not be combined with PM1.  If both are applicable at MODERATE weight, use of PM5 is most appropriate since it is variant specific. | This criterion can be "
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "No cardiomyopathy specifications. Apply as outlined by Richards _et al_. 2015[<sup>1</sup>](#pmid_25741868).\n\nExample of when rule should NOT be applied. NM\\_000256.3(_MYBPC3_): c.2308G>A (p.Asp770Asn) has an established impact on splicing leading to nonsense mediated decay (NMD) and should not be used to provide evidence for other variants observed to result in the same amino acid change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "Currently few well-designed case-control studies have been performed for inherited cardiomyopathies.  Until such studies become available, comparative analyses can be undertaken using case data (e.g., internal and/or published cohorts) and control data from population-level cohorts (e.g., gnomAD). \n\nCohorts used in these analyses should meet the following criteria: \n\n1.  The cases have a clinical diagnosis of the specified disorder or related phenotype (e.g., all cases have HCM or another relevant phenotype\\*). \n    *   When assessing cases, it's important to consider how likely another potential cause of the phenotype has been excluded.  This includes considering the presence of other varia"
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN103",
+   "vcep": "Cardiomyopathy"
+  },
+  "NRAS": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (P-loop \\[AA 10-17\\], SW1 \\[AA 25-40\\], SW2 \\[AA 57-64\\], SAK \\[AA 145-156\\]). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous pathogenic residue positions in _HRAS, KRAS, MRAS, NRAS, RIT1,_ and _RRAS2._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN039",
+   "vcep": "RASopathy"
+  },
+  "PTPN11": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (Directly interacting residues between N-SH2 and PTPN domains \\[AA 4, AA 7-9, AA 58-63, AA 69-77, AA 247, AA 251, AA 255, AA 256, AA 258, AA 261, AA 265, AA 278-281, AA 284\\]). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant in _PTPN11_ regardless of nucleotide change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN043",
+   "vcep": "RASopathy"
+  },
+  "RAF1": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (CR2 domain \\[AA 251-266/exon7\\], exon 14, exon 17). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _BRAF_ and _RAF1._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN040",
+   "vcep": "RASopathy"
+  },
+  "RIT1": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (P-loop \\[AA 28-35\\], SW1 \\[AA 43-58\\], SW2 \\[AA 75-82\\], no SAK). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _HRAS, KRAS, MRAS, NRAS, RIT1,_ and _RRAS2._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 point."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN047",
+   "vcep": "RASopathy"
+  },
+  "RRAS2": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (P-loop \\[AA 21-28\\], SW1 \\[AA 36-51\\], SW2 \\[AA 68-75\\], no SAK). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _HRAS, KRAS, MRAS, NRAS, RIT1,_ and _RRAS2._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN127",
+   "vcep": "RASopathy"
+  },
+  "SHOC2": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "not_applicable"
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant in _SHOC2_ regardless of nucleotide change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN038",
+   "vcep": "RASopathy"
+  },
+  "SOS1": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "not_applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (PH domain \\[AA 420-500\\]). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _SOS1_ and _SOS2._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN041",
+   "vcep": "RASopathy"
+  },
+  "SOS2": {
+   "BP1": {
+    "applicability": "applicable"
+   },
+   "BS2": {
+    "applicability": "applicable"
+   },
+   "PM1": {
+    "applicability": "not_applicable",
+    "text": "Applicable only to critical and well-established functional domains available in the supplementary table (PH domain \\[AA 418-498\\]). Not applicable to specific amino acid residues (see PM5)."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "≥2 different \\[likely\\] pathogenic residues changes at the same codon observed in ≥5 probands. | 1 \\[likely\\] pathogenic residue change at the same codon."
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change. Applicable for observed analogous residue positions in _SOS1_ and _SOS2._"
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "≥5 points. | ≥3 points. | ≥1 points."
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN042",
+   "vcep": "RASopathy"
+  },
+  "TNNI3": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable to missense variants in _TNNI3_ in the specific regions listed below (Walsh _et al._ 2019[<sup>10</sup>](#pmid_30696458)). \n\n1.  Transcripts ENST00000344887 and NM\\_000363.5\n2.  Codons 141-209\n\nData from HCM case cohorts was used to derive these cluster regions. Therefore, this rule should NOT be applied when additional evidence for the variant supports that the variant causes a phenotype other than HCM (e.g., variant seen in multiple DCM cases).\n\nEnrichment was not observed for DCM in any genes.\n\nRule should NOT be combined with PM5 because presence of pathogenic variants in the same codon/region were used to determine clustering and would be double-counting evidence."
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "This criterion can be used at MODERATE if a different missense variant at the same codon has been classified as _pathogenic_ using these modified guidelines without application of PM5.\n\nThe impact of the amino acid change being evaluated needs to be compared to the impact of the amino acid change that is established as pathogenic (e.g., a change of Ala to His is less severe than Ala to Cys change). Consider reducing the strength of this rule to SUPPORTING if the predicted impact is not expected to be equivalent or more severe.\n\nPM5 should not be combined with PM1.  If both are applicable at MODERATE weight, use of PM5 is most appropriate since it is variant specific. | This criterion can be "
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "No cardiomyopathy specifications. Apply as outlined by Richards _et al_. 2015[<sup>1</sup>](#pmid_25741868).\n\nExample of when rule should NOT be applied. NM\\_000256.3(_MYBPC3_): c.2308G>A (p.Asp770Asn) has an established impact on splicing leading to nonsense mediated decay (NMD) and should not be used to provide evidence for other variants observed to result in the same amino acid change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "Currently few well-designed case-control studies have been performed for inherited cardiomyopathies.  Until such studies become available, comparative analyses can be undertaken using case data (e.g., internal and/or published cohorts) and control data from population-level cohorts (e.g., gnomAD). \n\nCohorts used in these analyses should meet the following criteria: \n\n1.  The cases have a clinical diagnosis of the specified disorder or related phenotype (e.g., all cases have HCM or another relevant phenotype\\*). \n    *   When assessing cases, it's important to consider how likely another potential cause of the phenotype has been excluded.  This includes considering the presence of other varia"
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN098",
+   "vcep": "Cardiomyopathy"
+  },
+  "TNNT2": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "applicable",
+    "text": "Applicable to missense variants in _TNNT2_ in the specific regions listed below (Walsh _et al._ 2019[<sup>10</sup>](#pmid_30696458)). \n\n1.  Transcripts ENST00000367318 with codons 79-179\n2.  ENST00000656932.1 and NM\\_001276345.2 with codons 89-189\n\nData from HCM case cohorts was used to derive these cluster regions. Therefore, this rule should NOT be applied when additional evidence for the variant supports that the variant causes a phenotype other than HCM (e.g., variant seen in multiple DCM cases).\n\nEnrichment was not observed for DCM in any genes.\n\nRule should NOT be combined with PM5 because presence of pathogenic variants in the same codon/region were used to determine clustering and wo"
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "This criterion can be used at MODERATE if a different missense variant at the same codon has been classified as _pathogenic_ using these modified guidelines without application of PM5.\n\nThe impact of the amino acid change being evaluated needs to be compared to the impact of the amino acid change that is established as pathogenic (e.g., a change of Ala to His is less severe than Ala to Cys change). Consider reducing the strength of this rule to SUPPORTING if the predicted impact is not expected to be equivalent or more severe.\n\nPM5 should not be combined with PM1.  If both are applicable at MODERATE weight, use of PM5 is most appropriate since it is variant specific. | This criterion can be "
+   },
+   "PP2": {
+    "applicability": "not_applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "No cardiomyopathy specifications. Apply as outlined by Richards _et al_. 2015[<sup>1</sup>](#pmid_25741868).\n\nExample of when rule should NOT be applied. NM\\_000256.3(_MYBPC3_): c.2308G>A (p.Asp770Asn) has an established impact on splicing leading to nonsense mediated decay (NMD) and should not be used to provide evidence for other variants observed to result in the same amino acid change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "Currently few well-designed case-control studies have been performed for inherited cardiomyopathies.  Until such studies become available, comparative analyses can be undertaken using case data (e.g., internal and/or published cohorts) and control data from population-level cohorts (e.g., gnomAD). \n\nCohorts used in these analyses should meet the following criteria: \n\n1.  The cases have a clinical diagnosis of the specified disorder or related phenotype (e.g., all cases have HCM or another relevant phenotype\\*). \n    *   When assessing cases, it's important to consider how likely another potential cause of the phenotype has been excluded.  This includes considering the presence of other varia"
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN099",
+   "vcep": "Cardiomyopathy"
+  },
+  "TPM1": {
+   "BP1": {
+    "applicability": "not_applicable"
+   },
+   "BS2": {
+    "applicability": "not_applicable"
+   },
+   "PM1": {
+    "applicability": "not_applicable"
+   },
+   "PM3": {
+    "applicability": "not_applicable"
+   },
+   "PM5": {
+    "applicability": "applicable",
+    "text": "This criterion can be used at MODERATE if a different missense variant at the same codon has been classified as _pathogenic_ using these modified guidelines without application of PM5.\n\nThe impact of the amino acid change being evaluated needs to be compared to the impact of the amino acid change that is established as pathogenic (e.g., a change of Ala to His is less severe than Ala to Cys change). Consider reducing the strength of this rule to SUPPORTING if the predicted impact is not expected to be equivalent or more severe.\n\nPM5 should not be combined with PM1.  If both are applicable at MODERATE weight, use of PM5 is most appropriate since it is variant specific. | This criterion can be "
+   },
+   "PP2": {
+    "applicability": "applicable"
+   },
+   "PP4": {
+    "applicability": "not_applicable"
+   },
+   "PS1": {
+    "applicability": "applicable",
+    "text": "No cardiomyopathy specifications. Apply as outlined by Richards _et al_. 2015[<sup>1</sup>](#pmid_25741868).\n\nExample of when rule should NOT be applied. NM\\_000256.3(_MYBPC3_): c.2308G>A (p.Asp770Asn) has an established impact on splicing leading to nonsense mediated decay (NMD) and should not be used to provide evidence for other variants observed to result in the same amino acid change."
+   },
+   "PS4": {
+    "applicability": "applicable",
+    "text": "Currently few well-designed case-control studies have been performed for inherited cardiomyopathies.  Until such studies become available, comparative analyses can be undertaken using case data (e.g., internal and/or published cohorts) and control data from population-level cohorts (e.g., gnomAD). \n\nCohorts used in these analyses should meet the following criteria: \n\n1.  The cases have a clinical diagnosis of the specified disorder or related phenotype (e.g., all cases have HCM or another relevant phenotype\\*). \n    *   When assessing cases, it's important to consider how likely another potential cause of the phenotype has been excluded.  This includes considering the presence of other varia"
+   },
+   "PVS1": {
+    "applicability": "not_applicable"
+   },
+   "gn": "GN100",
+   "vcep": "Cardiomyopathy"
+  }
+ }
+}

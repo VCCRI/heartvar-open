@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HeartVar</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='16' fill='%23C8341A'/><svg x='3' y='3' width='26' height='26' viewBox='100 -20 560 380'><g fill='%23ffffff'><path d='M263-15.7c7.3,0,13.2,5.9,13.2,13.2c0,48.2,50.8,106.1,101,162.1c56.6,63.1,115.2,128.4,115.2,193.2c0,7.3-5.9,13.2-13.2,13.2c-7.3,0-13.2-5.9-13.2-13.2c0-54.7-55.2-116.1-108.5-175.6C301.5,114.7,249.8,55.7,249.8-2.5C249.8-9.8,255.7-15.7,263-15.7z'/><path d='M373,315h102.7c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2H373c-7.3,0-13.2-5.9-13.2-13.2S365.7,315,373,315z'/><path d='M373,265.6h81.2c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2H373c-7.3,0-13.2-5.9-13.2-13.2S365.7,265.6,373,265.6z'/><path d='M373,220h50.1c7.3,0,13.2,5.9,13.2,13.2s-5.9,13.2-13.2,13.2H373c-7.3,0-13.2-5.9-13.2-13.2S365.7,220,373,220z'/><path d='M268.1,11.5h102.7c7.3,0,13.2,5.9,13.2,13.2s-5.9,13.2-13.2,13.2H268.1c-7.3,0-13.2-5.9-13.2-13.2S260.8,11.5,268.1,11.5z'/><path d='M289.6,58h81.2c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2h-81.2c-7.3,0-13.2-5.9-13.2-13.2C276.4,63.9,282.3,58,289.6,58z'/><path d='M322.9,104.3h47.9c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2h-47.9c-7.3,0-13.2-5.9-13.2-13.2C309.7,110.2,315.6,104.3,322.9,104.3z'/><path d='M477.4-15.7c7.3,0,13.2,5.9,13.2,13.2c0,58.3-48.4,117.3-104.4,179.8C333,236.7,277.4,298.1,277.4,352.8c0,7.3-5.9,13.2-13.2,13.2c-7.3,0-13.2-5.9-13.2-13.2c0-64.8,58.9-130.1,115.5-193.2c50.2-56,97.7-113.9,97.7-162.1C464.2-9.8,470.1-15.7,477.4-15.7z'/><path d='M270.6,315h102.7c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2H270.6c-7.3,0-13.2-5.9-13.2-13.2C257.4,320.9,263.3,315,270.6,315z'/><path d='M292,265.6h81.2c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2H292c-7.3,0-13.2-5.9-13.2-13.2C278.9,271.5,284.8,265.6,292,265.6z'/><path d='M323.4,220h49.8c7.3,0,13.2,5.9,13.2,13.2s-5.9,13.2-13.2,13.2h-49.8c-7.3,0-13.2-5.9-13.2-13.2C310.2,225.9,316.2,220,323.4,220z'/><path d='M370.5,11.5h102.7c7.3,0,13.2,5.9,13.2,13.2s-5.9,13.2-13.2,13.2H370.5c-7.3,0-13.2-5.9-13.2-13.2S363.2,11.5,370.5,11.5z'/><path d='M370.5,58h81.2c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2h-81.2c-7.3,0-13.2-5.9-13.2-13.2S363.2,58,370.5,58z'/><path d='M370.5,104.3h50.4c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2h-50.4c-7.3,0-13.2-5.9-13.2-13.2C357.3,110.2,363.2,104.3,370.5,104.3z'/></g></svg></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/heartvar.css">
+</head>
+<body class="hv-landing-on">
+
+    <div id="hv-landing">
+
+        <header class="hvl-header">
+      <div class="hvl-header__inner">
+        <div class="hvl-brand">
+          <a href="https://www.victorchang.edu.au/" class="hvl-brand__logo" target="_blank" rel="noopener" aria-label="Victor Chang Cardiac Research Institute">
+            <img src="https://www.victorchang.edu.au/resources/artwork/Victor-chang-logo-2024.svg" alt="Victor Chang Cardiac Research Institute">
+          </a>
+          <span class="hvl-brand__sep" aria-hidden="true"></span>
+          <span class="hvl-brand__name"><span class="h">Heart</span>Var</span>
+        </div>
+        <nav class="hvl-nav" aria-label="Primary">
+          <a class="active" aria-current="page">Variant Curator</a>
+                    <a href="/about" onclick="goAbout(); return false;">About</a>
+                    <span id="hv-admin-slot-landing" class="hv-auth-slot"></span>
+        </nav>
+                <span id="hv-auth-slot-landing" class="hv-auth-slot"></span>
+      </div>
+    </header>
+
+        <main class="hvl-main">
+      <section class="hvl-hero">
+        <h1 class="hvl-wordmark"><span class="h">Heart</span>Var</h1>
+
+        <p class="hvl-tagline">
+          Aggregated evidence and a transparent <em>ACMG/AMP</em> classification for
+          cardiovascular variants — with optional AI-assisted interpretation. Enter a
+          gene and variant to begin.
+        </p>
+
+                <div class="hvl-searchwrap">
+          <form id="hvl-curate-form" autocomplete="off" onsubmit="enterAppFromLanding(); return false;">
+            <div class="hvl-searchbar">
+              <div class="hvl-field hvl-field--gene">
+                <div class="hvl-field__top">
+                  <label for="hvl-gene">Gene <span class="req" title="Required">*</span></label>
+                </div>
+                <input id="hvl-gene" name="gene" type="text" placeholder="e.g. GATA4" spellcheck="false" autocapitalize="characters" aria-required="true" onblur="validateGeneSymbol()" oninput="clearGeneSymbolMsg()">
+              </div>
+              <div class="hvl-field hvl-field--variant">
+                <div class="hvl-field__top">
+                  <label for="hvl-variant">Variant <span class="req" title="Required">*</span></label>
+                </div>
+                <input id="hvl-variant" name="variant" type="text" placeholder="e.g. c.886C&gt;T or 7-117548-G-A" spellcheck="false" aria-required="true" oninput="hvlSyncBuildToggle()">
+              </div>
+              <div class="hvl-searchbar__action">
+                <button type="submit" class="hvl-btn-generate">
+                  Generate interpretation
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+                        <div id="hvl-gene-msg" class="hvl-gene-msg" role="status" aria-live="polite"></div>
+
+                        <div id="build-toggle-row" class="hvl-build-toggle" data-build="GRCh38" role="group" aria-label="Genome build of the entered coordinates">
+              <span class="hvl-build-toggle__lbl">These coordinates are on:</span>
+              <div class="hvl-build-seg">
+                <button type="button" class="hvl-build-opt is-active" data-build="GRCh38" onclick="hvlSetBuild(this)">GRCh38 / hg38</button>
+                <button type="button" class="hvl-build-opt" data-build="GRCh37" onclick="hvlSetBuild(this)">GRCh37 / hg19</button>
+              </div>
+              <span class="hvl-build-toggle__hint">GRCh37 is lifted over to GRCh38.</span>
+            </div>
+
+                        <div class="hvl-undersearch">
+              <div class="hvl-undersearch__opts">
+                <button type="button" class="hvl-toggle" aria-expanded="false" aria-controls="hvl-panel-clinical" onclick="hvlTogglePanel(this,'hvl-panel-clinical')">
+                  <svg class="ic" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+                  Add clinical context
+                </button>
+                                <label class="hvl-toggle hvl-ai-pill" title="Include an AI interpretation (optional)">
+                  <input id="hvl-ai-enable" type="checkbox" class="hvl-ai-pill__box" aria-label="Include AI interpretation" onchange="hvlAiPillChange(this)">
+                  <span class="hvl-ai-pill__tick" aria-hidden="true"></span>
+                  AI interpretation
+                </label>
+              </div>
+              <div class="hvl-undersearch__actions">
+                <button type="button" class="hvl-toggle hvl-clear-pill" onclick="hvlClearAll()">Clear all</button>
+                <button type="button" class="hvl-toggle hvl-example-pill" onclick="hvlTryExample()">Try an example</button>
+              </div>
+            </div>
+
+                        <div class="hvl-panel" id="hvl-panel-clinical" role="region" aria-label="Clinical context">
+              <div class="hvl-panel__card">
+                <div class="hvl-panel__head">
+                  <span class="dot" aria-hidden="true"></span>
+                  <h3>Clinical context</h3>
+                  <span class="tag">Optional</span>
+                </div>
+                <div class="hvl-grid">
+                  <div class="hvl-fld span2">
+                    <label for="hvl-hpo">Phenotypes / HPO terms <span class="hint">Comma-separated</span></label>
+                    <input id="hvl-hpo" type="text" class="hvl-ctl" placeholder="e.g. dilated cardiomyopathy, HP:0001629">
+                  </div>
+                  <div class="hvl-fld">
+                    <label for="hvl-zygosity">Zygosity</label>
+                    <select id="hvl-zygosity" class="hvl-ctl">
+                      <option value="">Unknown</option>
+                      <option value="het">Heterozygous</option>
+                      <option value="hom">Homozygous</option>
+                      <option value="hemi">Hemizygous</option>
+                    </select>
+                  </div>
+                  <div class="hvl-fld">
+                    <label for="hvl-inheritance">Inheritance</label>
+                    <select id="hvl-inheritance" class="hvl-ctl">
+                      <option value="">Unknown</option>
+                      <option value="AD">Autosomal dominant</option>
+                      <option value="AR">Autosomal recessive</option>
+                      <option value="XLD">X-linked dominant</option>
+                      <option value="XLR">X-linked recessive</option>
+                      <option value="MT">Mitochondrial</option>
+                      <option value="DN">De novo</option>
+                    </select>
+                  </div>
+                  <div class="hvl-fld">
+                    <label for="hvl-sex">Proband sex</label>
+                    <select id="hvl-sex" class="hvl-ctl">
+                      <option value="">Unknown</option>
+                      <option value="female">Female</option>
+                      <option value="male">Male</option>
+                    </select>
+                  </div>
+                  <div class="hvl-fld">
+                    <label for="hvl-trio">Trio status</label>
+                                        <select id="hvl-trio" class="hvl-ctl">
+                      <option value="">Unknown</option>
+                      <option value="duo">Duo — one parent tested</option>
+                      <option value="trio">Full trio — both parents tested</option>
+                    </select>
+                  </div>
+                  <div class="hvl-fld">
+                    <label for="hvl-denovo">De novo status</label>
+                                        <select id="hvl-denovo" class="hvl-ctl">
+                                            <option value="">Not assessed</option>
+                      <option value="unconfirmed">Absent from both parents (parentage assumed)</option>
+                      <option value="confirmed">Absent from both parents (parentage confirmed)</option>
+                      <option value="inherited_affected">Inherited from affected parent</option>
+                      <option value="inherited_unaffected">Inherited from unaffected parent</option>
+                    </select>
+                  </div>
+                                    <div class="hvl-fld">
+                    <label for="hvl-seg-affected-carriers">Affected relatives with the variant</label>
+                    <input id="hvl-seg-affected-carriers" type="number" min="0" step="1" placeholder="0" class="hvl-ctl">
+                  </div>
+                                    <div class="hvl-fld">
+                    <label for="hvl-seg-affected-noncarriers">Affected relatives without the variant</label>
+                    <input id="hvl-seg-affected-noncarriers" type="number" min="0" step="1" placeholder="0" class="hvl-ctl">
+                  </div>
+                                    <div class="hvl-fld">
+                    <label for="hvl-denovo-confirmed-count">De novo occurrences (parentage confirmed)</label>
+                    <input id="hvl-denovo-confirmed-count" type="number" min="0" step="1" placeholder="0" class="hvl-ctl">
+                  </div>
+                  <div class="hvl-fld">
+                    <label for="hvl-denovo-unconfirmed-count">De novo occurrences (parentage assumed)</label>
+                    <input id="hvl-denovo-unconfirmed-count" type="number" min="0" step="1" placeholder="0" class="hvl-ctl">
+                  </div>
+                  <div class="hvl-fld">
+                    <label for="hvl-in-trans">2nd pathogenic variant in trans?</label>
+                    <select id="hvl-in-trans" class="hvl-ctl">
+                      <option value="">—</option>
+                      <option value="yes">Yes — confirmed in trans</option>
+                      <option value="no">No</option>
+                    </select>
+                  </div>
+                  <div class="hvl-fld span2">
+                    <label for="hvl-famhx">Family history <span class="hint">Used by AI mode only</span></label>
+                    <textarea id="hvl-famhx" class="hvl-ctl" placeholder="e.g. Father: unaffected carrier. Maternal aunt: AVSD."></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </form>
+
+                    <div class="hvl-evidence">
+            <div class="hvl-evidence__label">Draws on</div>
+            <div class="hvl-sources">
+              <span class="hvl-src"><span class="d" style="background:var(--maroon)"></span>gnomAD</span>
+              <span class="hvl-src"><span class="d" style="background:var(--blue)"></span>ClinVar</span>
+              <span class="hvl-src"><span class="d" style="background:var(--amber)"></span>AlphaMissense</span>
+              <span class="hvl-src"><span class="d" style="background:var(--green)"></span>SpliceAI</span>
+              <span class="hvl-src"><span class="d" style="background:var(--maroon)"></span>PanelApp</span>
+              <span class="hvl-src"><span class="d" style="background:var(--blue)"></span>ClinGen</span>
+              <span class="hvl-src"><span class="d" style="background:var(--ink-2)"></span>+ more</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+        <footer class="sitefoot">
+      <span class="sitefoot-org">Supported by Anthropic AI for Science</span>
+            <span class="sitefoot-links">
+        <a href="/about" onclick="goAbout(); return false;">About</a>
+                <a href="/about#privacy" onclick="goAbout('privacy'); return false;">Data &amp; privacy</a>
+        <a href="/contact" onclick="goContact(); return false;">Contact</a>
+      </span>
+    </footer>
+
+  </div>
+
+  <div class="topbar">
+    <div class="topbar-brand">
+      <a href="https://www.victorchang.edu.au/" class="vccri-logo" target="_blank" rel="noopener" aria-label="Victor Chang Cardiac Research Institute">
+        <img src="https://www.victorchang.edu.au/resources/artwork/Victor-chang-logo-2024.svg" alt="Victor Chang Cardiac Research Institute" />
+      </a>
+      <div class="brand-divider"></div>
+      <div class="brand-dot">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="100 -20 560 380">
+          <style>.hw{fill:#ffffff}</style>
+          <path class="hw" d="M263-15.7c7.3,0,13.2,5.9,13.2,13.2c0,48.2,50.8,106.1,101,162.1c56.6,63.1,115.2,128.4,115.2,193.2c0,7.3-5.9,13.2-13.2,13.2c-7.3,0-13.2-5.9-13.2-13.2c0-54.7-55.2-116.1-108.5-175.6C301.5,114.7,249.8,55.7,249.8-2.5C249.8-9.8,255.7-15.7,263-15.7z"/>
+          <path class="hw" d="M373,315h102.7c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2H373c-7.3,0-13.2-5.9-13.2-13.2S365.7,315,373,315z"/>
+          <path class="hw" d="M373,265.6h81.2c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2H373c-7.3,0-13.2-5.9-13.2-13.2S365.7,265.6,373,265.6z"/>
+          <path class="hw" d="M373,220h50.1c7.3,0,13.2,5.9,13.2,13.2s-5.9,13.2-13.2,13.2H373c-7.3,0-13.2-5.9-13.2-13.2S365.7,220,373,220z"/>
+          <path class="hw" d="M268.1,11.5h102.7c7.3,0,13.2,5.9,13.2,13.2s-5.9,13.2-13.2,13.2H268.1c-7.3,0-13.2-5.9-13.2-13.2S260.8,11.5,268.1,11.5z"/>
+          <path class="hw" d="M289.6,58h81.2c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2h-81.2c-7.3,0-13.2-5.9-13.2-13.2C276.4,63.9,282.3,58,289.6,58z"/>
+          <path class="hw" d="M322.9,104.3h47.9c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2h-47.9c-7.3,0-13.2-5.9-13.2-13.2C309.7,110.2,315.6,104.3,322.9,104.3z"/>
+          <path class="hw" d="M477.4-15.7c7.3,0,13.2,5.9,13.2,13.2c0,58.3-48.4,117.3-104.4,179.8C333,236.7,277.4,298.1,277.4,352.8c0,7.3-5.9,13.2-13.2,13.2c-7.3,0-13.2-5.9-13.2-13.2c0-64.8,58.9-130.1,115.5-193.2c50.2-56,97.7-113.9,97.7-162.1C464.2-9.8,470.1-15.7,477.4-15.7z"/>
+          <path class="hw" d="M270.6,315h102.7c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2H270.6c-7.3,0-13.2-5.9-13.2-13.2C257.4,320.9,263.3,315,270.6,315z"/>
+          <path class="hw" d="M292,265.6h81.2c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2H292c-7.3,0-13.2-5.9-13.2-13.2C278.9,271.5,284.8,265.6,292,265.6z"/>
+          <path class="hw" d="M323.4,220h49.8c7.3,0,13.2,5.9,13.2,13.2s-5.9,13.2-13.2,13.2h-49.8c-7.3,0-13.2-5.9-13.2-13.2C310.2,225.9,316.2,220,323.4,220z"/>
+          <path class="hw" d="M370.5,11.5h102.7c7.3,0,13.2,5.9,13.2,13.2s-5.9,13.2-13.2,13.2H370.5c-7.3,0-13.2-5.9-13.2-13.2S363.2,11.5,370.5,11.5z"/>
+          <path class="hw" d="M370.5,58h81.2c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2h-81.2c-7.3,0-13.2-5.9-13.2-13.2S363.2,58,370.5,58z"/>
+          <path class="hw" d="M370.5,104.3h50.4c7.3,0,13.2,5.9,13.2,13.2c0,7.3-5.9,13.2-13.2,13.2h-50.4c-7.3,0-13.2-5.9-13.2-13.2C357.3,110.2,363.2,104.3,370.5,104.3z"/>
+        </svg>
+      </div>
+      <div>
+                <div class="brand-name" id="topbar-brand-name" role="button" tabindex="0"
+             style="cursor:pointer" title="New variant — return to start"
+             aria-label="HeartVar — start a new variant"
+             onclick="if(typeof returnToLanding==='function')returnToLanding();"
+             onkeydown="if((event.key==='Enter'||event.key===' ')&&typeof returnToLanding==='function'){event.preventDefault();returnToLanding();}"><span class="hv-h">Heart</span>Var</div>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <nav class="hv-topnav" aria-label="Primary">
+        <button class="nav-tab active" id="nt-curate" onclick="showPage('curate')">Variant Curator</button>
+        <button class="nav-tab" id="nt-about" onclick="showPage('about')">About</button>
+                <button class="nav-tab" id="nt-admin" style="display:none" onclick="showPage('admin')">Admin</button>
+      </nav>
+    </div>
+        <span id="hv-auth-slot-app" class="hv-auth-slot"></span>
+  </div>
+
+    <main class="split">
+
+    <section class="col-right">
+
+            <div id="result-panel" style="display:none"></div>
+
+    </section>
+  </main>
+
+    <div id="page-about" class="page-about-wrap" style="display:none">
+    <div class="about-constrained">
+      <div class="about-layout">
+                <nav class="about-toc" aria-label="On this page">
+          <p class="about-toc__lbl">On this page</p>
+          <a href="#what" onclick="return goAboutSection('what')">What this tool does</a>
+          <a href="#ai" onclick="return goAboutSection('ai')">AI interpretation</a>
+          <a href="#privacy" onclick="return goAboutSection('privacy')">Data &amp; privacy</a>
+          <a href="#sources" onclick="return goAboutSection('sources')">Evidence sources</a>
+          <a href="#builds" onclick="return goAboutSection('builds')">Genome builds</a>
+          <a href="#guidelines" onclick="return goAboutSection('guidelines')">Guidelines</a>
+          <a href="#cite" onclick="return goAboutSection('cite')">How to cite</a>
+          <a href="#project" onclick="return goAboutSection('project')">About this project</a>
+        </nav>
+      <div class="card">
+
+        <div class="about-sec" id="about-what">
+          <h2 class="about-h">What this tool does</h2>
+          <p class="about-p">HeartVar assists variant curators in generating a preliminary variant classification for variants identified in cardiovascular disease cohorts. For a given gene and variant, it queries twenty public data sources and applies the ACMG/AMP framework to produce a structured first-pass interpretation. It is designed as a curator's aid and all outputs should be independently verified.</p>
+        </div>
+
+        <div class="about-sec" id="about-ai">
+          <h2 class="about-h">AI interpretation</h2>
+          <p class="about-p">AI interpretation is optional and off by default. Tick <em>Include AI interpretation</em> under the search box to enable it for a curation. Without AI, HeartVar queries every linked database and returns a preliminary, rule-based ACMG/AMP classification computed from the criteria it can evaluate deterministically, alongside the full assembled evidence. The judgement-based criteria are marked "not assessed", so the preliminary tier can understate pathogenicity but does not over-call it from missing evidence. Adding AI unlocks the full ACMG/AMP classification, point score, and clinical-narrative summary. Adding AI interpretation requires single sign-on to safely manage AI usage. The rest of the tool remains available for use without signing in.</p>
+          <p class="about-p">When you enable AI, HeartVar runs the interpretation through Anthropic's Claude. This means the variant and the clinical context you enter (and any questions you ask the chat assistant) are sent to Anthropic's Claude API, a third-party service, for processing. If you would rather no data leave HeartVar, leave the box unticked and the evidence-only result is computed entirely on the server with no third-party AI call. To keep the shared AI resource available, usage is rate-limited and capped by a daily budget; if the cap is reached, HeartVar falls back to the evidence-only result for the rest of the day.</p>
+        </div>
+
+                <div class="about-sec" id="about-privacy">
+          <h2 class="about-h">Data &amp; privacy</h2>
+          <p class="about-p"><strong>Nothing you enter is stored.</strong> The variant, phenotype, and clinical details you enter are held only in your browser for the session and processed in memory on the server to assemble evidence. They are not written to a database, logged with their content, or retained after the request completes.</p>
+          <p class="about-p"><strong>If you tick <em>Include AI interpretation</em>, data is sent overseas.</strong> The variant, the clinical context you entered, and any questions you ask the assistant are transmitted to Anthropic's Claude API, which processes them in the United States. If you would rather nothing leaves the Institute's servers, leave the box unticked. The evidence-only result is computed entirely on our server with no third-party AI call.</p>
+          <p class="about-p"><strong>Please do not enter information that identifies a patient.</strong> HeartVar needs only a gene, a variant, and a phenotype. Do not enter names, medical record numbers, dates of birth, or free-text notes that could identify an individual.</p>
+          <p class="about-p"><strong>Cookies.</strong> HeartVar sets one cookie, and only if you sign in: a session cookie that keeps you signed in. HeartVar sets no advertising or analytics cookies and contains no tracking code.</p>
+          <p class="about-p"><strong>Signing in</strong> shares your email address and display name from Microsoft or Google, used only to identify your session and to apply usage limits.</p>
+          <p class="about-p">For everything else, including how to request access to or correction of your information, see the <a href="https://www.victorchang.edu.au/privacy-policy" target="_blank" rel="noopener">Institute's privacy policy</a> and <a href="https://www.victorchang.edu.au/terms-conditions" target="_blank" rel="noopener">terms &amp; conditions</a>.</p>
+        </div>
+
+        <div class="about-sec" id="about-sources">
+          <h2 class="about-h">Evidence sources</h2>
+          <table class="src-table">
+            <thead>
+              <tr><th>Database</th><th>What it contributes</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="src-name">AlphaFold</td><td class="src-desc">Predicted 3D protein structure (pLDDT-scored) for the spatial variant view</td></tr>
+              <tr><td class="src-name">AlphaMissense</td><td class="src-desc">Pre-computed missense pathogenicity predictions</td></tr>
+              <tr><td class="src-name">BioGRID</td><td class="src-desc">Curated protein-protein interactions</td></tr>
+              <tr><td class="src-name">CHDgene</td><td class="src-desc">VCCRI curated high-confidence CHD gene list with cardiac subtype and inheritance data</td></tr>
+              <tr><td class="src-name">ClinVar</td><td class="src-desc">Existing pathogenicity classifications and submitter evidence</td></tr>
+              <tr><td class="src-name">Ensembl VEP</td><td class="src-desc">Variant consequence, transcript annotation, splice impact, in silico scores (SIFT, PolyPhen, REVEL, CADD)</td></tr>
+              <tr><td class="src-name">GenCC</td><td class="src-desc">Gene-disease classifications with submitter and mode of inheritance</td></tr>
+              <tr><td class="src-name">gnomAD v4</td><td class="src-desc">Population allele frequency, homozygote counts, gene constraint metrics</td></tr>
+              <tr><td class="src-name">GTEx v10</td><td class="src-desc">Median TPM in heart (left ventricle, atrial appendage) and artery (aorta, coronary) tissues</td></tr>
+              <tr><td class="src-name">Heart of Fetal Cells</td><td class="src-desc"><a href="https://www.nature.com/articles/s41586-024-07171-z" target="_blank" rel="noopener">Farah et al. 2024 ("Heart of Cells", <em>Nature</em> 627:854)</a>; per-cell-type fetal-heart scRNA-seq expression at 9/11/13/15 PCW for congenital heart disease interpretation</td></tr>
+              <tr><td class="src-name">MedGen</td><td class="src-desc">Gene-associated conditions and disease names (NCBI)</td></tr>
+              <tr><td class="src-name">MGI (via Alliance)</td><td class="src-desc">Mouse orthologue, phenotypic alleles, cardiac MP terms</td></tr>
+              <tr><td class="src-name">Open Targets</td><td class="src-desc">Gene-disease association score and evidence-type breakdown</td></tr>
+              <tr><td class="src-name">PanelApp (Australia)</td><td class="src-desc">Australian Genomics; all cardiovascular panels</td></tr>
+              <tr><td class="src-name">PMC Open Access</td><td class="src-desc">Open-access full text (Results/Methods/table excerpts) deepening literature based criteria</td></tr>
+              <tr><td class="src-name">ProtVar (EBI)</td><td class="src-desc">Functional, conservation, and co-located variant annotations for missense variants</td></tr>
+              <tr><td class="src-name">PubMed</td><td class="src-desc">Variant-specific case reports and gene-level functional study abstracts</td></tr>
+              <tr><td class="src-name">PubTator3</td><td class="src-desc">Normalised variant→literature retrieval recovering variant-specific papers PubMed's strict query misses</td></tr>
+              <tr><td class="src-name">SpliceAI</td><td class="src-desc">Δ-acceptor/Δ-donor splice impact scores</td></tr>
+              <tr><td class="src-name">UniProt</td><td class="src-desc">Protein domains, active and binding sites, natural variant annotations</td></tr>
+            </tbody>
+          </table>
+                    <p class="about-p src-update-note" style="margin-top:12px;font-size:12.5px;color:var(--muted)">Data is updated monthly.</p>
+        </div>
+
+        <div class="about-sec" id="about-builds">
+          <h2 class="about-h">Genome builds</h2>
+          <p class="about-p">HeartVar reports on the GRCh38/hg38 assembly. You can enter a variant either as coding HGVS (e.g. c.886C&gt;T, with a gene symbol) or as genomic coordinates (chromosome-position-ref-alt). HGVS input is build-independent and Ensembl resolves it directly to GRCh38. For genomic coordinates, both GRCh38/hg38 (default) and GRCh37/hg19 are accepted; a build selector appears beneath the search box as soon as you enter coordinates.</p>
+          <p class="about-p">GRCh37/hg19 coordinates are automatically lifted over to GRCh38/hg38 (via Ensembl) before any annotation, so all evidence and the final classification are computed on GRCh38. When a conversion is applied, the Summary tab shows both the coordinates you entered and the lifted GRCh38 coordinates.</p>
+        </div>
+
+        <div class="about-sec" id="about-guidelines">
+          <h2 class="about-h">Guidelines applied</h2>
+          <p class="about-p">HeartVar applies the ACMG/AMP framework (Richards, 2015) for criteria definitions with the point-based combining rules (Tavtigian, 2020) for the final classification tier.</p>
+          <ul class="unc-list" style="margin-top:0.5rem">
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/25741868/" target="_blank" rel="noopener">Richards S et al. Standards and guidelines for the interpretation of sequence variants. <em>Genet Med</em>. 2015;17(5):405-24.</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/32720330/" target="_blank" rel="noopener">Tavtigian SV et al. Fitting a naturally scaled point system to the ACMG/AMP variant classification guidelines. <em>Hum Mutat</em>. 2020;41(10):1734-1737.</a></li>
+          </ul>
+        </div>
+
+        <div class="about-sec" id="about-cite">
+          <h2 class="about-h">How to cite</h2>
+          <p class="about-p">If you use HeartVar in your work, please cite:</p>
+          <p class="about-p about-cite-block">Thompson, J.M., Das, D., Dunwoodie, S.L., &amp; Giannoulatou, E. HeartVar: A LLM-Assisted Tool for Clinical Classification of Variants in Cardiovascular Disease Cohorts. [Journal / Preprint]. 2026. [DOI / URL].</p>
+        </div>
+
+        <div class="about-sec" id="about-project">
+          <h2 class="about-h">About this project</h2>
+          <p class="about-p">HeartVar is developed by the Computational Genomics Laboratory at the Victor Chang Cardiac Research Institute, Sydney, as part of a project supported by Anthropic's AI for Science program.</p>
+        </div>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+    <div id="page-admin" class="page-about-wrap" style="display:none" aria-label="Admin portal">
+    <div class="about-constrained">
+      <div class="card admin-card">
+        <h2 class="about-h" style="font-size:22px">Admin Portal</h2>
+
+                <div id="admin-index-view">
+
+          <div class="admin-section" style="margin-bottom:1.5rem">
+            <div class="admin-section__head">
+              <span class="admin-section__title">Data Sources</span>
+              <button class="admin-refresh-btn" onclick="hvAdminLoadDbStatus()" title="Refresh">&#8635;</button>
+            </div>
+            <div id="admin-db-status" class="admin-db-status-wrap">
+              <div class="admin-log-list--loading"><span class="admin-spinner"></span> Loading&hellip;</div>
+            </div>
+          </div>
+
+          <div class="admin-section">
+            <div class="admin-section__head">
+              <span class="admin-section__title">Database Builder</span>
+              <button class="admin-refresh-btn" onclick="hvAdminLoadLogs()" title="Refresh">&#8635;</button>
+            </div>
+            <div id="admin-db-logs" class="admin-log-list">
+              <div class="admin-log-list--loading"><span class="admin-spinner"></span> Loading&hellip;</div>
+            </div>
+          </div>
+
+          <div class="admin-section" style="margin-top:1.5rem">
+            <div class="admin-section__head">
+              <span class="admin-section__title">Website Deployments</span>
+            </div>
+            <div id="admin-deploy-logs" class="admin-log-list">
+              <div class="admin-log-list--loading"><span class="admin-spinner"></span> Loading&hellip;</div>
+            </div>
+          </div>
+        </div>
+
+                <div id="admin-content-view" style="display:none">
+          <div class="admin-content-head">
+            <button class="admin-back-btn" onclick="hvAdminBackToIndex()">&#8592; Back</button>
+            <span id="admin-content-title" class="admin-content-title"></span>
+          </div>
+          <pre id="admin-content-body" class="admin-log-content"></pre>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+    <div id="page-contact" class="page-about-wrap" style="display:none">
+    <div class="about-constrained">
+      <div class="card contact-card">
+        <h1 class="about-h" style="font-size:22px">Contact</h1>
+                <p class="about-p">For questions, feedback, or a bug report, email
+          <a href="mailto:heartvar@victorchang.edu.au?subject=HeartVar">heartvar@victorchang.edu.au</a>.</p>
+      </div>
+    </div>
+  </div>
+
+    <button class="hvc-fab" id="hvc-fab" onclick="hvChatOpen()" aria-label="Ask about this variant">
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 10c0 3.866-3.134 7-7 7a6.97 6.97 0 0 1-3.5-.937L3 17l.937-3.5A6.97 6.97 0 0 1 3 10c0-3.866 3.134-7 7-7s7 3.134 7 7z"/><path d="M7 10h.01M10 10h.01M13 10h.01"/></svg>
+    Ask about this variant
+  </button>
+  <aside class="hvc-panel" id="hvc-panel" aria-label="Ask about this variant">
+    <div class="hvc-head">
+      <span class="hvc-head__ic"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 10c0 3.866-3.134 7-7 7a6.97 6.97 0 0 1-3.5-.937L3 17l.937-3.5A6.97 6.97 0 0 1 3 10c0-3.866 3.134-7 7-7s7 3.134 7 7z"/></svg></span>
+      <div style="flex:1"><div class="hvc-title">Ask about this variant</div></div>
+      <button class="hvc-close" onclick="hvChatClose()" aria-label="Close">&#215;</button>
+    </div>
+    <div class="hvc-msgs" id="hvc-msgs"></div>
+    <div class="hvc-foot">
+      <div class="hvc-irow">
+                <textarea class="hvc-input" id="hvc-input" rows="1" aria-label="Ask a question about this variant's evidence" placeholder="Ask about the evidence, criteria, or classification…" onkeydown="hvChatKey(event)"></textarea>
+        <button class="hvc-send" onclick="hvChatSend()" aria-label="Send"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2L2 8l4 2 2 4 6-12z"/></svg></button>
+      </div>
+      <div class="hvc-disc">AI-generated · always verify with primary sources</div>
+    </div>
+  </aside>
+
+    <footer class="sitefoot" id="app-foot">
+    <span class="sitefoot-org">Supported by Anthropic AI for Science</span>
+        <span class="sitefoot-links">
+      <a href="/about" onclick="goAbout(); return false;">About</a>
+      <a href="/about#privacy" onclick="goAbout('privacy'); return false;">Data &amp; privacy</a>
+      <a href="/contact" onclick="goContact(); return false;">Contact</a>
+    </span>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="/static/heartvar.js" defer></script>
+
+    <script src="/static/heartvar.landing.js" defer></script>
+
+    <script src="/static/heartvar.auth.js" defer></script>
+
+    <script src="/static/heartvar.datastamp.js" defer></script>
+
+</body>
+</html>

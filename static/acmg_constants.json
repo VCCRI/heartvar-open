@@ -1,0 +1,73 @@
+{
+  "_comment": "SINGLE SOURCE OF TRUTH for ACMG/AMP (Tavtigian 2020) scoring constants. Consumed by BOTH backend/app.py (loaded at import) and static/heartvar.js (fetched at runtime). Do NOT hardcode these tables in either language — edit here and the cross-language parity test (backend/tests/test_acmg_constants_parity.py) enforces both sides match.",
+  "tier_points": {
+    "VeryStrong": 8,
+    "Strong": 4,
+    "Moderate": 2,
+    "Supporting": 1
+  },
+  "bare_code_points": {
+    "PVS1": 8,
+    "PS1": 4, "PS2": 4, "PS3": 4, "PS4": 4,
+    "PM1": 2, "PM2": 2, "PM3": 2, "PM4": 2, "PM5": 2, "PM6": 2,
+    "PP1": 1, "PP2": 1, "PP3": 1, "PP4": 1, "PP5": 1,
+    "BA1": -8,
+    "BS1": -4, "BS2": -4, "BS3": -4, "BS4": -4,
+    "BP1": -1, "BP2": -1, "BP3": -1, "BP4": -1, "BP5": -1, "BP6": -1, "BP7": -1
+  },
+  "classification_thresholds": [
+    {"min": 10, "label": "Pathogenic"},
+    {"min": 6, "label": "Likely pathogenic"},
+    {"min": 0, "label": "VUS"},
+    {"min": -6, "label": "Likely benign"},
+    {"min": -999999, "label": "Benign"}
+  ],
+  "hard_coded_criteria_codes": [
+    "BA1", "BS1", "BS2", "PM2", "PP3", "BP4", "BP7",
+    "PVS1", "PM4", "BP3", "PS2", "PM6", "PM3", "BP2",
+    "PP5", "BP6", "PM5", "PS1", "PM1", "PP1", "BS4"
+  ],
+  "ai_evaluated_criteria_codes": [
+    "PS3", "PS4",
+    "PP2", "PP4",
+    "BS3",
+    "BP1", "BP5"
+  ],
+  "criteria_display_order": [
+    "PVS1", "PS1", "PS2", "PS3", "PS4",
+    "PM1", "PM2", "PM3", "PM4", "PM5", "PM6",
+    "PP1", "PP2", "PP3", "PP4", "PP5",
+    "BA1", "BS1", "BS2", "BS3", "BS4",
+    "BP1", "BP2", "BP3", "BP4", "BP5", "BP6", "BP7"
+  ],
+  "criterion_names": {
+    "PVS1": "Null variant",
+    "PS1": "Same AA change",
+    "PS2": "De novo (confirmed)",
+    "PS3": "Functional studies",
+    "PS4": "Affected prevalence",
+    "PM1": "Critical domain",
+    "PM2": "Absent in controls",
+    "PM3": "In trans w/ path",
+    "PM4": "Length change",
+    "PM5": "Novel missense",
+    "PM6": "De novo (assumed)",
+    "PP1": "Co-segregation",
+    "PP2": "Low-tolerance missense",
+    "PP3": "Computational",
+    "PP4": "Phenotype match",
+    "PP5": "Reputable source",
+    "BA1": "AF above stand-alone benign cutoff",
+    "BS1": "AF above expected",
+    "BS2": "Healthy adult",
+    "BS3": "Functional (benign)",
+    "BS4": "No segregation",
+    "BP1": "Missense in trunc gene",
+    "BP2": "In trans / cis",
+    "BP3": "In-frame repeat",
+    "BP4": "Computational (benign)",
+    "BP5": "Alt molecular cause",
+    "BP6": "Reputable (benign)",
+    "BP7": "Silent / no splice"
+  }
+}

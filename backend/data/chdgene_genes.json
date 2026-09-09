@@ -1,0 +1,2864 @@
+{
+  "meta": {
+    "source_url": "https://chdgene.victorchang.edu.au/",
+    "fetched_at": "2026-05-13T02:16:30+00:00",
+    "gene_count": 189,
+    "columns": {
+      "ranking_stars": "uniform 5/5 \u2014 all genes in CHDgene meet the high-confidence tier",
+      "supporting_references_count": "0\u20136 \u2014 count of curated supporting publications; higher = stronger evidence base"
+    },
+    "high_confidence_threshold": 3
+  },
+  "genes": [
+    {
+      "symbol": "ABL1",
+      "url": "https://chdgene.victorchang.edu.au/gene/25",
+      "chd_classification": [
+        "ASD",
+        "VSD"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "ACTC1",
+      "url": "https://chdgene.victorchang.edu.au/gene/70",
+      "chd_classification": [
+        "ASD",
+        "VSD"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "ACVR1",
+      "url": "https://chdgene.victorchang.edu.au/gene/90",
+      "chd_classification": [
+        "ASD",
+        "AVSD and variants",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "ACVR2B",
+      "url": "https://chdgene.victorchang.edu.au/gene/93",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Heterotaxy",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "ADAMTS10",
+      "url": "https://chdgene.victorchang.edu.au/gene/81794",
+      "chd_classification": [
+        "VSD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "ADAMTS19",
+      "url": "https://chdgene.victorchang.edu.au/gene/171019",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 0
+    },
+    {
+      "symbol": "AFF4",
+      "url": "https://chdgene.victorchang.edu.au/gene/27125",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "ALDH1A2",
+      "url": "https://chdgene.victorchang.edu.au/gene/8854",
+      "chd_classification": [
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "AMOTL1",
+      "url": "https://chdgene.victorchang.edu.au/gene/154810",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Malformation of outflow tracts",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "ANKRD11",
+      "url": "https://chdgene.victorchang.edu.au/gene/29123",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "AVSD and variants",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "ARID1A",
+      "url": "https://chdgene.victorchang.edu.au/gene/8289",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "ARID1B",
+      "url": "https://chdgene.victorchang.edu.au/gene/57492",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "AVSD and variants"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "B3GAT3",
+      "url": "https://chdgene.victorchang.edu.au/gene/26229",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "BCOR",
+      "url": "https://chdgene.victorchang.edu.au/gene/54880",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "BMP2",
+      "url": "https://chdgene.victorchang.edu.au/gene/650",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "BMPR2",
+      "url": "https://chdgene.victorchang.edu.au/gene/659",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "AVSD and variants",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "BRAF",
+      "url": "https://chdgene.victorchang.edu.au/gene/673",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 5
+    },
+    {
+      "symbol": "CCDC22",
+      "url": "https://chdgene.victorchang.edu.au/gene/28952",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "CDK13",
+      "url": "https://chdgene.victorchang.edu.au/gene/8621",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "CFAP53",
+      "url": "https://chdgene.victorchang.edu.au/gene/220136",
+      "chd_classification": [
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "CFC1",
+      "url": "https://chdgene.victorchang.edu.au/gene/55997",
+      "chd_classification": [
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "CHD4",
+      "url": "https://chdgene.victorchang.edu.au/gene/1108",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "CHD7",
+      "url": "https://chdgene.victorchang.edu.au/gene/55636",
+      "chd_classification": [
+        "ASD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "CHST14",
+      "url": "https://chdgene.victorchang.edu.au/gene/113189",
+      "chd_classification": [
+        "ASD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "CIROP",
+      "url": "https://chdgene.victorchang.edu.au/gene/100128908",
+      "chd_classification": [
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "CITED2",
+      "url": "https://chdgene.victorchang.edu.au/gene/10370",
+      "chd_classification": [
+        "ASD",
+        "VSD"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "CREBBP",
+      "url": "https://chdgene.victorchang.edu.au/gene/1387",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 6
+    },
+    {
+      "symbol": "CRELD1",
+      "url": "https://chdgene.victorchang.edu.au/gene/78987",
+      "chd_classification": [
+        "AVSD and variants",
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "CTNNB1",
+      "url": "https://chdgene.victorchang.edu.au/gene/1499",
+      "chd_classification": [
+        "Malformation of outflow tracts",
+        "AVSD and variants"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "CTNND1",
+      "url": "https://chdgene.victorchang.edu.au/gene/1500",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "ASD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 0
+    },
+    {
+      "symbol": "CUL3",
+      "url": "https://chdgene.victorchang.edu.au/gene/8452",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "DLG5",
+      "url": "https://chdgene.victorchang.edu.au/gene/9231",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 0
+    },
+    {
+      "symbol": "DLL4",
+      "url": "https://chdgene.victorchang.edu.au/gene/54567",
+      "chd_classification": [
+        "VSD",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "DNAH11",
+      "url": "https://chdgene.victorchang.edu.au/gene/8701",
+      "chd_classification": [
+        "ASD",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "DNAH5",
+      "url": "https://chdgene.victorchang.edu.au/gene/1767",
+      "chd_classification": [
+        "ASD",
+        "AVSD and variants",
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "DNAH9",
+      "url": "https://chdgene.victorchang.edu.au/gene/1770",
+      "chd_classification": [
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "DOCK6",
+      "url": "https://chdgene.victorchang.edu.au/gene/57572",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "DOHH",
+      "url": "https://chdgene.victorchang.edu.au/gene/83475",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "EFTUD2",
+      "url": "https://chdgene.victorchang.edu.au/gene/9343",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "EHMT1",
+      "url": "https://chdgene.victorchang.edu.au/gene/79813",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "ELN",
+      "url": "https://chdgene.victorchang.edu.au/gene/2006",
+      "chd_classification": [
+        "ASD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "EP300",
+      "url": "https://chdgene.victorchang.edu.au/gene/2033",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "ESCO2",
+      "url": "https://chdgene.victorchang.edu.au/gene/157570",
+      "chd_classification": [
+        "VSD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "EVC",
+      "url": "https://chdgene.victorchang.edu.au/gene/2121",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "EVC2",
+      "url": "https://chdgene.victorchang.edu.au/gene/132884",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "FBN1",
+      "url": "https://chdgene.victorchang.edu.au/gene/2200",
+      "chd_classification": [
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "FGFR2",
+      "url": "https://chdgene.victorchang.edu.au/gene/2263",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "FLNA",
+      "url": "https://chdgene.victorchang.edu.au/gene/2316",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLD",
+        "XLR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "FLT4",
+      "url": "https://chdgene.victorchang.edu.au/gene/2324",
+      "chd_classification": [
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "FOXC1",
+      "url": "https://chdgene.victorchang.edu.au/gene/2296",
+      "chd_classification": [
+        "ASD",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "FOXC2",
+      "url": "https://chdgene.victorchang.edu.au/gene/2303",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "FOXH1",
+      "url": "https://chdgene.victorchang.edu.au/gene/8928",
+      "chd_classification": [
+        "Malformation of outflow tracts",
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "FOXP1",
+      "url": "https://chdgene.victorchang.edu.au/gene/27086",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "FRYL",
+      "url": "https://chdgene.victorchang.edu.au/gene/285527",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "GATA4",
+      "url": "https://chdgene.victorchang.edu.au/gene/2626",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 5
+    },
+    {
+      "symbol": "GATA5",
+      "url": "https://chdgene.victorchang.edu.au/gene/140628",
+      "chd_classification": [
+        "ASD",
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "GATA6",
+      "url": "https://chdgene.victorchang.edu.au/gene/2627",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 6
+    },
+    {
+      "symbol": "GDF1",
+      "url": "https://chdgene.victorchang.edu.au/gene/2657",
+      "chd_classification": [
+        "VSD",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Heterotaxy",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "GJA1",
+      "url": "https://chdgene.victorchang.edu.au/gene/2697",
+      "chd_classification": [
+        "VSD",
+        "Obstructive lesions",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "GLI3",
+      "url": "https://chdgene.victorchang.edu.au/gene/2737",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "GPC3",
+      "url": "https://chdgene.victorchang.edu.au/gene/2719",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "HAAO",
+      "url": "https://chdgene.victorchang.edu.au/gene/23498",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Functional single ventricle",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "HAND1",
+      "url": "https://chdgene.victorchang.edu.au/gene/9421",
+      "chd_classification": [
+        "VSD",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "HAND2",
+      "url": "https://chdgene.victorchang.edu.au/gene/9464",
+      "chd_classification": [
+        "VSD",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "HDAC8",
+      "url": "https://chdgene.victorchang.edu.au/gene/55869",
+      "chd_classification": [
+        "ASD",
+        "VSD"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "HNRNPK",
+      "url": "https://chdgene.victorchang.edu.au/gene/3190",
+      "chd_classification": [
+        "ASD",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "HRAS",
+      "url": "https://chdgene.victorchang.edu.au/gene/3265",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "HSPA9",
+      "url": "https://chdgene.victorchang.edu.au/gene/3313",
+      "chd_classification": [
+        "ASD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "HYAL2",
+      "url": "https://chdgene.victorchang.edu.au/gene/8692",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "IFT74",
+      "url": "https://chdgene.victorchang.edu.au/gene/80173",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "IGF2",
+      "url": "https://chdgene.victorchang.edu.au/gene/3481",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "INVS",
+      "url": "https://chdgene.victorchang.edu.au/gene/27130",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "JAG1",
+      "url": "https://chdgene.victorchang.edu.au/gene/182",
+      "chd_classification": [
+        "VSD",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "KANSL1",
+      "url": "https://chdgene.victorchang.edu.au/gene/284058",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "KAT6A",
+      "url": "https://chdgene.victorchang.edu.au/gene/7994",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "KAT6B",
+      "url": "https://chdgene.victorchang.edu.au/gene/23522",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "KDM2B",
+      "url": "https://chdgene.victorchang.edu.au/gene/84678",
+      "chd_classification": [
+        "ASD",
+        "VSD"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "KDM6A",
+      "url": "https://chdgene.victorchang.edu.au/gene/7403",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "KDR",
+      "url": "https://chdgene.victorchang.edu.au/gene/3791",
+      "chd_classification": [
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "KMT2A",
+      "url": "https://chdgene.victorchang.edu.au/gene/4297",
+      "chd_classification": [
+        "ASD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "KMT2D",
+      "url": "https://chdgene.victorchang.edu.au/gene/8085",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "KRAS",
+      "url": "https://chdgene.victorchang.edu.au/gene/3845",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "KYNU",
+      "url": "https://chdgene.victorchang.edu.au/gene/8942",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts",
+        "Functional single ventricle",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "LTBP2",
+      "url": "https://chdgene.victorchang.edu.au/gene/4053",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Malformation of outflow tracts",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "LZTR1",
+      "url": "https://chdgene.victorchang.edu.au/gene/8216",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "MAP2K1",
+      "url": "https://chdgene.victorchang.edu.au/gene/5604",
+      "chd_classification": [
+        "ASD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "MAP2K2",
+      "url": "https://chdgene.victorchang.edu.au/gene/5605",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "MAP3K7",
+      "url": "https://chdgene.victorchang.edu.au/gene/6885",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "MAP4K4",
+      "url": "https://chdgene.victorchang.edu.au/gene/9448",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "MAPK1",
+      "url": "https://chdgene.victorchang.edu.au/gene/5594",
+      "chd_classification": [
+        "ASD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "MAPKAPK5",
+      "url": "https://chdgene.victorchang.edu.au/gene/8550",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "MED12",
+      "url": "https://chdgene.victorchang.edu.au/gene/9968",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "MED13L",
+      "url": "https://chdgene.victorchang.edu.au/gene/23389",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "MEIS2",
+      "url": "https://chdgene.victorchang.edu.au/gene/4212",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "MESP1",
+      "url": "https://chdgene.victorchang.edu.au/gene/55897",
+      "chd_classification": [
+        "VSD",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "MMP21",
+      "url": "https://chdgene.victorchang.edu.au/gene/118856",
+      "chd_classification": [
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 0
+    },
+    {
+      "symbol": "MYBPC3",
+      "url": "https://chdgene.victorchang.edu.au/gene/4607",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "MYH11",
+      "url": "https://chdgene.victorchang.edu.au/gene/4629",
+      "chd_classification": [
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "MYH6",
+      "url": "https://chdgene.victorchang.edu.au/gene/4624",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "MYH7",
+      "url": "https://chdgene.victorchang.edu.au/gene/4625",
+      "chd_classification": [
+        "ASD",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "NAA15",
+      "url": "https://chdgene.victorchang.edu.au/gene/80155",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 0
+    },
+    {
+      "symbol": "NADSYN1",
+      "url": "https://chdgene.victorchang.edu.au/gene/55191",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 0
+    },
+    {
+      "symbol": "NF1",
+      "url": "https://chdgene.victorchang.edu.au/gene/4763",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "NIPBL",
+      "url": "https://chdgene.victorchang.edu.au/gene/25836",
+      "chd_classification": [
+        "ASD",
+        "VSD"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "NKX2-5",
+      "url": "https://chdgene.victorchang.edu.au/gene/1482",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle",
+        "Heterotaxy",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "NKX2-6",
+      "url": "https://chdgene.victorchang.edu.au/gene/137814",
+      "chd_classification": [
+        "VSD",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "NODAL",
+      "url": "https://chdgene.victorchang.edu.au/gene/4838",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle",
+        "Heterotaxy",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "NONO",
+      "url": "https://chdgene.victorchang.edu.au/gene/4841",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "NOTCH1",
+      "url": "https://chdgene.victorchang.edu.au/gene/4851",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "NOTCH2",
+      "url": "https://chdgene.victorchang.edu.au/gene/4853",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "NPHP3",
+      "url": "https://chdgene.victorchang.edu.au/gene/27031",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "NPHP4",
+      "url": "https://chdgene.victorchang.edu.au/gene/261734",
+      "chd_classification": [
+        "AVSD and variants",
+        "Malformation of outflow tracts",
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "NR2F2",
+      "url": "https://chdgene.victorchang.edu.au/gene/7026",
+      "chd_classification": [
+        "ASD",
+        "AVSD and variants"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "NRAS",
+      "url": "https://chdgene.victorchang.edu.au/gene/4893",
+      "chd_classification": [
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "NSD1",
+      "url": "https://chdgene.victorchang.edu.au/gene/64324",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "NUP188",
+      "url": "https://chdgene.victorchang.edu.au/gene/23511",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "ODAD4",
+      "url": "https://chdgene.victorchang.edu.au/gene/83538",
+      "chd_classification": [
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "PAN2",
+      "url": "https://chdgene.victorchang.edu.au/gene/9924",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "PBX1",
+      "url": "https://chdgene.victorchang.edu.au/gene/5087",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "PIGL",
+      "url": "https://chdgene.victorchang.edu.au/gene/9487",
+      "chd_classification": [
+        "VSD",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "PIGV",
+      "url": "https://chdgene.victorchang.edu.au/gene/55650",
+      "chd_classification": [
+        "ASD",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "PITX2",
+      "url": "https://chdgene.victorchang.edu.au/gene/5308",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 5
+    },
+    {
+      "symbol": "PKD1L1",
+      "url": "https://chdgene.victorchang.edu.au/gene/168507",
+      "chd_classification": [
+        "VSD",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle",
+        "Heterotaxy",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "PLD1",
+      "url": "https://chdgene.victorchang.edu.au/gene/5337",
+      "chd_classification": [
+        "Other"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "PLXND1",
+      "url": "https://chdgene.victorchang.edu.au/gene/23129",
+      "chd_classification": [
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "POLR1A",
+      "url": "https://chdgene.victorchang.edu.au/gene/25885",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "PRDM6",
+      "url": "https://chdgene.victorchang.edu.au/gene/93166",
+      "chd_classification": [
+        "Other"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "PRKACA",
+      "url": "https://chdgene.victorchang.edu.au/gene/5566",
+      "chd_classification": [
+        "AVSD and variants"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 0
+    },
+    {
+      "symbol": "PRKACB",
+      "url": "https://chdgene.victorchang.edu.au/gene/5567",
+      "chd_classification": [
+        "AVSD and variants"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "PRKD1",
+      "url": "https://chdgene.victorchang.edu.au/gene/5587",
+      "chd_classification": [
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "PTPN11",
+      "url": "https://chdgene.victorchang.edu.au/gene/5781",
+      "chd_classification": [
+        "ASD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "RAB23",
+      "url": "https://chdgene.victorchang.edu.au/gene/51715",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "RAD21",
+      "url": "https://chdgene.victorchang.edu.au/gene/5885",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "RAF1",
+      "url": "https://chdgene.victorchang.edu.au/gene/5894",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "RBFOX2",
+      "url": "https://chdgene.victorchang.edu.au/gene/23543",
+      "chd_classification": [
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "RERE",
+      "url": "https://chdgene.victorchang.edu.au/gene/473",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "RIT1",
+      "url": "https://chdgene.victorchang.edu.au/gene/6016",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "ROBO1",
+      "url": "https://chdgene.victorchang.edu.au/gene/6091",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "SALL1",
+      "url": "https://chdgene.victorchang.edu.au/gene/6299",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "SALL4",
+      "url": "https://chdgene.victorchang.edu.au/gene/57167",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "SEMA3A",
+      "url": "https://chdgene.victorchang.edu.au/gene/10371",
+      "chd_classification": [
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "SETD5",
+      "url": "https://chdgene.victorchang.edu.au/gene/55209",
+      "chd_classification": [
+        "AVSD and variants",
+        "ASD",
+        "VSD"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "SF3B4",
+      "url": "https://chdgene.victorchang.edu.au/gene/10262",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "AVSD and variants",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "SHOC2",
+      "url": "https://chdgene.victorchang.edu.au/gene/8036",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "SLC37A4",
+      "url": "https://chdgene.victorchang.edu.au/gene/2542",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "SMAD2",
+      "url": "https://chdgene.victorchang.edu.au/gene/4087",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Heterotaxy",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "SMAD3",
+      "url": "https://chdgene.victorchang.edu.au/gene/4088",
+      "chd_classification": [
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "SMAD4",
+      "url": "https://chdgene.victorchang.edu.au/gene/4089",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "SMAD6",
+      "url": "https://chdgene.victorchang.edu.au/gene/4091",
+      "chd_classification": [
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "SMARCA4",
+      "url": "https://chdgene.victorchang.edu.au/gene/6597",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "SMARCB1",
+      "url": "https://chdgene.victorchang.edu.au/gene/6598",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions",
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "SMARCE1",
+      "url": "https://chdgene.victorchang.edu.au/gene/6605",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Obstructive lesions",
+        "Heterotaxy",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "SMC1A",
+      "url": "https://chdgene.victorchang.edu.au/gene/8243",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "SMC3",
+      "url": "https://chdgene.victorchang.edu.au/gene/9126",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "SMG9",
+      "url": "https://chdgene.victorchang.edu.au/gene/56006",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "SMO",
+      "url": "https://chdgene.victorchang.edu.au/gene/6608",
+      "chd_classification": [
+        "AVSD and variants"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "SMPD4",
+      "url": "https://chdgene.victorchang.edu.au/gene/55627",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "SON",
+      "url": "https://chdgene.victorchang.edu.au/gene/6651",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "SOS1",
+      "url": "https://chdgene.victorchang.edu.au/gene/6654",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "SPEN",
+      "url": "https://chdgene.victorchang.edu.au/gene/23013",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "SPRED2",
+      "url": "https://chdgene.victorchang.edu.au/gene/200734",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "STK4",
+      "url": "https://chdgene.victorchang.edu.au/gene/6789",
+      "chd_classification": [
+        "ASD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "STRA6",
+      "url": "https://chdgene.victorchang.edu.au/gene/64220",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "TAB2",
+      "url": "https://chdgene.victorchang.edu.au/gene/23118",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "TBX1",
+      "url": "https://chdgene.victorchang.edu.au/gene/6899",
+      "chd_classification": [
+        "VSD",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "TBX20",
+      "url": "https://chdgene.victorchang.edu.au/gene/57057",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "TBX3",
+      "url": "https://chdgene.victorchang.edu.au/gene/6926",
+      "chd_classification": [
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "TBX5",
+      "url": "https://chdgene.victorchang.edu.au/gene/6910",
+      "chd_classification": [
+        "ASD",
+        "VSD",
+        "AVSD and variants"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "TFAP2B",
+      "url": "https://chdgene.victorchang.edu.au/gene/7021",
+      "chd_classification": [
+        "Malformation of outflow tracts",
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 4
+    },
+    {
+      "symbol": "TGFBR1",
+      "url": "https://chdgene.victorchang.edu.au/gene/7046",
+      "chd_classification": [
+        "ASD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "TGFBR2",
+      "url": "https://chdgene.victorchang.edu.au/gene/7048",
+      "chd_classification": [
+        "ASD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "THOC6",
+      "url": "https://chdgene.victorchang.edu.au/gene/79228",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "TLL1",
+      "url": "https://chdgene.victorchang.edu.au/gene/7092",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "TMEM260",
+      "url": "https://chdgene.victorchang.edu.au/gene/54916",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "TMEM94",
+      "url": "https://chdgene.victorchang.edu.au/gene/9772",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "TRAF7",
+      "url": "https://chdgene.victorchang.edu.au/gene/84231",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "TXNL4A",
+      "url": "https://chdgene.victorchang.edu.au/gene/10907",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "UBR1",
+      "url": "https://chdgene.victorchang.edu.au/gene/197131",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "UBR7",
+      "url": "https://chdgene.victorchang.edu.au/gene/55148",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 0
+    },
+    {
+      "symbol": "WASHC5",
+      "url": "https://chdgene.victorchang.edu.au/gene/9897",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "WBP11",
+      "url": "https://chdgene.victorchang.edu.au/gene/51729",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Functional single ventricle"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 0
+    },
+    {
+      "symbol": "WLS",
+      "url": "https://chdgene.victorchang.edu.au/gene/79971",
+      "chd_classification": [
+        "Other"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "ZEB2",
+      "url": "https://chdgene.victorchang.edu.au/gene/9839",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 3
+    },
+    {
+      "symbol": "ZFPM2",
+      "url": "https://chdgene.victorchang.edu.au/gene/23414",
+      "chd_classification": [
+        "Malformation of outflow tracts"
+      ],
+      "extra_cardiac_phenotype": false,
+      "inheritance": [
+        "AD",
+        "DN"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 2
+    },
+    {
+      "symbol": "ZIC3",
+      "url": "https://chdgene.victorchang.edu.au/gene/7547",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "AVSD and variants",
+        "Obstructive lesions",
+        "Malformation of outflow tracts",
+        "Functional single ventricle",
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "XLR"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 5
+    },
+    {
+      "symbol": "ZMYM2",
+      "url": "https://chdgene.victorchang.edu.au/gene/7750",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "ZMYND10",
+      "url": "https://chdgene.victorchang.edu.au/gene/51364",
+      "chd_classification": [
+        "Heterotaxy"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "ZMYND8",
+      "url": "https://chdgene.victorchang.edu.au/gene/23613",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AD"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    },
+    {
+      "symbol": "ZNF699",
+      "url": "https://chdgene.victorchang.edu.au/gene/374879",
+      "chd_classification": [
+        "ASD with minor abnormalities",
+        "VSD with minor abnormalities",
+        "Obstructive lesions"
+      ],
+      "extra_cardiac_phenotype": true,
+      "inheritance": [
+        "AR",
+        "CH"
+      ],
+      "ranking_stars": 5,
+      "supporting_references_count": 1
+    }
+  ]
+}

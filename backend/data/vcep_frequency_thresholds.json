@@ -1,0 +1,220 @@
+{
+ "_README": "Gene-specific population-frequency thresholds from the ClinGen VCEP criteria specifications. Drives PM2 (ceiling) and BS1 (floor); BA1 included as reference data (BA1 wiring is a separate, higher-stakes change). All values are allele frequencies. Genes absent from this table fall back to the generic thresholds in compute_hard_coded_criteria (logged when used). Invariant per gene: pm2_max <= bs1 < ba1. Coverage is limited to the genes for which ClinGen has PUBLISHED a frequency CSpec: HCM sarcomeric (Cardiomyopathy VCEP), RASopathy (per-gene docs), KCNQ1 (Potassium Channel VCEP), FBN1 (Marfan VCEP). DCM/ARVC panels are gene-curation only (no frequency rules); Brugada/SCN5A and CPVT/RYR2 VCEP rules are unpublished as of 2026-06 — those genes use the generic fallback. See the vcep-frequency-thresholds memory and the per-gene src fields.",
+ "_gnomad_version_note": "RUNTIME DATA SOURCE: the pipeline queries gnomAD v4 (gnomad_r4) — see backend/clients/gnomad.py. THRESHOLD PROVENANCE: every ClinGen CSpec below was derived/validated against gnomAD v2.1.1. This is consistent, NOT a bug: the cutoff VALUES are disease-derived (max-credible-AF = prevalence x penetrance x allelic heterogeneity, Whiffin/Ware 2017), so they are version-independent and remain valid applied against v4 frequencies. gnomAD renamed 'popmax' (v2) to 'grpmax' (v4) — same column, no value change. The ONE version-sensitive behaviour is absence-only PM2 (RASopathy, and the very low FBN1 ceiling): 'absent' is stricter under v4's larger sample (e.g. KRAS c.508A>T has 0 alleles in v2.1.1 but 10 in v4), so the tool is slightly more conservative than a v2.1.1-era curator. We keep it strict = spec-faithful.",
+ "_metric_note": "Metric is per-VCEP, routed by each gene's `metric` field. Default and overwhelming majority: `faf95` — gnomAD FAF95 popmax/grpmax (_gnomad_popmax_af), which is what the Cardiomyopathy and RASopathy VCEPs specify, so it is already conformant for 23 of the 25 spec'd genes. Only KCNQ1 (GN112) and FBN1 (GN022) specify a per-population POINT allele frequency; those carry `metric: point_af` plus their own population allow-list / exclusion list and allele minimum. Harvested from the CSpec registry rather than transcribed: a scan of all 25 genes' BA1/BS1/PM2 rule text finds exactly these two deviating. A BLANKET metric switch would be a NEW spec violation, not a fix — it would break the 619 of 852 records the FAF metric is already right for in order to fix 118.",
+ "_pm2_semantics": "pm2_max is the inclusive ceiling: PM2_Supporting fires when FAF <= pm2_max (and the variant is not precluded by BA1/BS1). pm2_max = 0 means ABSENCE-ONLY (only variants absent from gnomAD earn PM2) — the RASopathy AD rule. pm2_max_ar overrides pm2_max when inheritance == 'AR' (LZTR1 recessive carve-out).",
+ "_point_af_note": "point_af is computed EXOME-PREFERRED: the per-population ac/an of the exome block, falling back to the genome block when there is no exome record. NOT max-of-blocks, which is monotonically upward-biased and demonstrably wrong — on MYH7 c.4130C>T it invents a Finnish AF of 9.4e-5 for a variant with ac=0 in 53,420 Finnish exomes. NOT summed either, which dilutes exome-ascertained variants. Exome-preferred is the most like-for-like with the v2.1.1-era calibration these thresholds come from.",
+ "genes": {
+  "ACTC1": {
+   "ba1": 0.001,
+   "bs1": 0.0001,
+   "pm2_max": 4e-05,
+   "src": "CSpec GN101 (HCM sarcomeric); gnomAD v2.1.1 FAF popmax",
+   "vcep": "Cardiomyopathy"
+  },
+  "BMPR2": {
+   "ba1": 0.01,
+   "bs1": 0.001,
+   "metric": "point_af",
+   "metric_caveat": "GN125 compares a per-population POINT allele frequency: BA1 is 'above 1% in gnomAD, including any sub-population with at least 1,000 allele counts', and BS1/PM2 use 'the subpopulation with the highest frequency and at least 1,000 allele counts'. So BMPR2 is the THIRD point_af gene alongside FBN1 (GN022) and KCNQ1 (GN112) — the earlier claim that those two were the only deviating specs was true only of the 25 genes then harvested. No population allow-list and no exclusions: every population is eligible, subject to the 1,000-allele minimum. Added 2026-09-01 when BMPR2's rule set was found to be missing from the harvester, which had left all 82 BMPR2 records in the 852 on generic house-rule defaults. Only BA1 was actually wrong (0.05 generic vs 0.01 spec, 5x too loose); BS1 and PM2 happened to coincide with the generic AD defaults.",
+   "min_alleles": 1000,
+   "pm2_max": 0.0001,
+   "src": "CSpec GN125 (BMPR2/Pulmonary Hypertension), read 2026-09-01; BA1 >1%, BS1 >=0.1%, PM2 <0.01%",
+   "vcep": "PulmonaryHypertension"
+  },
+  "BRAF": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "RASopathy VCEP per-gene (eRepo doc 643243119); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "FBN1": {
+   "ba1": 0.001,
+   "bs1": 5e-05,
+   "exclude_populations": [
+    "fin",
+    "asj",
+    "oth",
+    "remaining"
+   ],
+   "metric": "point_af",
+   "metric_caveat": "GN022 uses the highest per-population POINT allele frequency, excluding Finnish, Ashkenazi Jewish and 'Other' (gnomAD v4 renamed oth to remaining), with a minimum of 2,000 studied alleles in the population used. NOTE, and it is a real v2-vs-v4 conflict rather than a bug: mid (Middle Eastern) is none of the excluded populations and did not exist in gnomAD v2, when these thresholds were calibrated. FBN1 c.1390C>T (p.Arg464Cys), expert Likely Pathogenic, is 1/5,768 = 1.734e-4 in mid against a 5e-5 BS1 floor, and 5,768 >= 2,000 so the allele minimum does not exclude it either. Accepted deliberately: use the current dataset and record the disagreement rather than retro-fit the threshold.",
+   "min_alleles": 2000,
+   "pm2_max": 5e-06,
+   "src": "CSpec GN022 (FBN1/Marfan); PM2_Supporting<5e-6",
+   "vcep": "Aortopathy"
+  },
+  "HRAS": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN046 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "KCNQ1": {
+   "ba1": 0.004,
+   "bs1": 0.0004,
+   "metric": "point_af",
+   "metric_caveat": "GN112 compares a per-population POINT allele frequency, and only within the 5 continental populations it names: African/African-American, East Asian, European non-Finnish, Latino/Admixed-American, South Asian. Finnish, mid and ami are therefore excluded BY CONSTRUCTION, not by a founder-population caveat. This is what keeps KCNQ1 c.1766G>A (p.Gly589Asp) Pathogenic: Finnish is 27/52,964 = 5.10e-4 in gnomAD v4.1, above the 4e-4 BS1 floor, while the highest allowed population (nfe) is 8.99e-7 — 445x below it.",
+   "pm2_max": 1e-05,
+   "populations": [
+    "afr",
+    "eas",
+    "nfe",
+    "amr",
+    "sas"
+   ],
+   "src": "CSpec GN112 (Long-QT/Potassium Channel)",
+   "vcep": "PotassiumChannel"
+  },
+  "KRAS": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN044 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "LZTR1": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "pm2_max_ar": 2.5e-05,
+   "src": "CSpec GN094 (RASopathy per-gene; AR carve-out PM2_Supporting<=2.5e-5); gnomAD v2.1.1 grpmax FAF",
+   "vcep": "RASopathy"
+  },
+  "MAP2K1": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN045 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "MAP2K2": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN048 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "MRAS": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN087 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "MYBPC3": {
+   "ba1": 0.001,
+   "bs1": 0.0002,
+   "pm2_max": 4e-05,
+   "src": "CSpec GN095 (HCM sarcomeric; gene-specific BS1=2e-4); gnomAD v2.1.1 FAF popmax",
+   "vcep": "Cardiomyopathy"
+  },
+  "MYH7": {
+   "ba1": 0.001,
+   "bs1": 0.0001,
+   "pm2_max": 4e-05,
+   "src": "CSpec GN002 (HCM sarcomeric); gnomAD v2.1.1 FAF popmax",
+   "vcep": "Cardiomyopathy"
+  },
+  "MYL2": {
+   "ba1": 0.001,
+   "bs1": 0.0001,
+   "pm2_max": 4e-05,
+   "src": "CSpec GN102 (HCM sarcomeric); gnomAD v2.1.1 FAF popmax",
+   "vcep": "Cardiomyopathy"
+  },
+  "MYL3": {
+   "ba1": 0.001,
+   "bs1": 0.0001,
+   "pm2_max": 4e-05,
+   "src": "CSpec GN103 (HCM sarcomeric); gnomAD v2.1.1 FAF popmax",
+   "vcep": "Cardiomyopathy"
+  },
+  "NRAS": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN039 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "PPP1CB": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "RASopathy VCEP per-gene values (RASopathy CSpec GN128 v1.3); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "PTPN11": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN043 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "RAF1": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN040 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "RIT1": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN047 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "RRAS2": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN127 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "SHOC2": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN038 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "SOS1": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN041 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "SOS2": {
+   "ba1": 0.0005,
+   "bs1": 0.00025,
+   "pm2_max": 0.0,
+   "src": "CSpec GN042 (RASopathy per-gene); gnomAD v2.1.1 grpmax FAF; PM2=absence-only",
+   "vcep": "RASopathy"
+  },
+  "TNNI3": {
+   "ba1": 0.001,
+   "bs1": 0.0001,
+   "pm2_max": 4e-05,
+   "src": "CSpec GN098 (HCM sarcomeric); gnomAD v2.1.1 FAF popmax",
+   "vcep": "Cardiomyopathy"
+  },
+  "TNNT2": {
+   "ba1": 0.001,
+   "bs1": 0.0001,
+   "pm2_max": 4e-05,
+   "src": "CSpec GN099 (HCM sarcomeric); gnomAD v2.1.1 FAF popmax",
+   "vcep": "Cardiomyopathy"
+  },
+  "TPM1": {
+   "ba1": 0.001,
+   "bs1": 0.0001,
+   "pm2_max": 4e-05,
+   "src": "CSpec GN100 (HCM sarcomeric); gnomAD v2.1.1 FAF popmax",
+   "vcep": "Cardiomyopathy"
+  }
+ }
+}
