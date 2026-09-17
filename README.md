@@ -26,9 +26,9 @@ full per-source list is in [scripts/README.md](scripts/README.md).
 
 ## Citing this work
 
-> Thompson JM, Das D, Dunwoodie SL, Giannoulatou E. HeartVar: an LLM-assisted
-> tool for clinical classification of variants in cardiovascular disease
-> cohorts. Manuscript submitted, 2026.
+> HeartVar: An LLM-Assisted Tool for Clinical Classification of Variants in Cardiovascular Disease Cohorts.
+> Jamie-Lee Thompson, Debjani Das, Sally L Dunwoodie, Eleni Giannoulatou.
+> bioRxiv 2026.09.10.750569; doi: https://doi.org/10.64898/2026.09.10.750569
 
 ## Acknowledgements
 
